@@ -108,6 +108,19 @@
             .streams-table td.highlighted {
                 background-color: var(--highlight-bg) !important;
             }
+
+            /* When a cell is highlighted, make inner session cards transparent
+               so the highlight color fills the whole cell */
+            .streams-table td.highlighted .session {
+                background: transparent !important;
+                border-color: transparent !important;
+                box-shadow: none !important;
+            }
+            /* Make small meta text transparent background too (if present) */
+            .streams-table td.highlighted .session .meta {
+                background: transparent;
+            }
+
             .time-col {
                 width: 12%;
                 white-space: nowrap;
@@ -145,6 +158,49 @@
                 color: var(--muted);
                 margin-top: 8px;
             }
+            .filter-container {
+                margin: 20px 0;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .toggle-switch {
+                display: inline-flex;
+                align-items: center;
+                cursor: pointer;
+            }
+            .toggle-switch input {
+                display: none;
+            }
+            .toggle-switch span {
+                width: 40px;
+                height: 20px;
+                border-radius: 10px;
+                background: #ddd;
+                position: relative;
+                transition: background 0.3s;
+                margin-right: 8px;
+            }
+            .toggle-switch span:before {
+                content: "";
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background: white;
+                top: 2px;
+                left: 2px;
+                transition: transform 0.3s;
+            }
+            .toggle-switch input:checked + span {
+                background: var(--accent);
+            }
+            .toggle-switch input:checked + span:before {
+                transform: translateX(20px);
+            }
+            tr.hidden-row {
+                display: none;
+            }
             @media (max-width: 900px) {
                 .streams-table thead th:not(:first-child) {
                     display: none;
@@ -167,6 +223,13 @@
             </div>
         </div>
 
+        <div class="filter-container">
+            <label class="toggle-switch">
+                <input type="checkbox" id="highlight-toggle" />
+                <span></span>
+                Show only highlighted sessions
+            </label>
+        </div>
         <div id="root">Loading…</div>
 
         <script type="module">
@@ -217,6 +280,7 @@
             const userInfoEl = document.getElementById("user-info");
             const userEmailEl = document.getElementById("user-email");
             const root = document.getElementById("root");
+            const highlightToggle = document.getElementById("highlight-toggle");
 
             // --- 4. AUTHENTICATION ---
 
@@ -307,6 +371,24 @@
                 });
             }
 
+            function toggleHighlightedSessions(showOnlyHighlighted) {
+                const rows = document.querySelectorAll(
+                    ".streams-table tbody tr"
+                );
+                rows.forEach((row) => {
+                    if (showOnlyHighlighted) {
+                        const hasHighlight = row.querySelector(".highlighted");
+                        if (!hasHighlight) {
+                            row.classList.add("hidden-row");
+                        } else {
+                            row.classList.remove("hidden-row");
+                        }
+                    } else {
+                        row.classList.remove("hidden-row");
+                    }
+                });
+            }
+
             function updateVisibleHighlights() {
                 const allCells = document.querySelectorAll("[data-cell-id]");
                 allCells.forEach((cell) => {
@@ -317,6 +399,11 @@
                         cell.classList.remove("highlighted");
                     }
                 });
+
+                // Maintain filter state if toggle is checked
+                if (highlightToggle.checked) {
+                    toggleHighlightedSessions(true);
+                }
             }
 
             // --- 6. RENDER CONFERENCE PROGRAM ---
@@ -334,7 +421,7 @@
                         const day = item.day || "Unknown";
                         const time = (item.time || "").trim() || "TBA";
                         const loc =
-                            (item.location || "General").trim() === "N/A"
+                            (item.location || "N/A").trim() === "N/A"
                                 ? "General"
                                 : item.location.trim();
                         if (!byDay[day]) byDay[day] = [];
@@ -413,20 +500,25 @@
 
                             for (const loc of locations) {
                                 const cell = document.createElement("td");
-                                // Generate a unique, stable ID for each cell
-                                const cellId = `${day}-${time}-${loc}`
-                                    .replace(/[\s:/]/g, "-")
-                                    .toLowerCase();
-                                cell.dataset.cellId = cellId;
-                                cell.classList.add("clickable");
-                                cell.addEventListener("click", handleCellClick);
-
                                 const items = byTime[time].filter(
                                     (s) => s.location === loc
                                 );
+
                                 if (items.length === 0) {
+                                    // Do NOT make empty cells selectable/clickable
                                     cell.innerHTML = `<div class="empty">&nbsp;</div>`;
                                 } else {
+                                    // Only non-empty cells get an id, clickable class and listener
+                                    const cellId = `${day}-${time}-${loc}`
+                                        .replace(/[\s:/]/g, "-")
+                                        .toLowerCase();
+                                    cell.dataset.cellId = cellId;
+                                    cell.classList.add("clickable");
+                                    cell.addEventListener(
+                                        "click",
+                                        handleCellClick
+                                    );
+
                                     cell.innerHTML = items
                                         .map((it) => {
                                             const aStart =
@@ -487,6 +579,10 @@
                         }[s])
                 );
             }
+
+            highlightToggle.addEventListener("change", (e) => {
+                toggleHighlightedSessions(e.target.checked);
+            });
 
             renderProgram();
         </script>
