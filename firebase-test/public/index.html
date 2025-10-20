@@ -1,139 +1,176 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full bg-gray-50">
+<html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Simple Firebase SPA</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Conference Program — Pretty View with Streams</title>
         <style>
+            :root {
+                --gap: 10px;
+                --accent: #0b66c3;
+                --muted: #666;
+                --highlight-bg: #e6ffed; /* Light green for highlights */
+            }
             body {
-                font-family: "Inter", sans-serif;
+                font-family: system-ui, -apple-system, Segoe UI, Roboto,
+                    Helvetica, Arial;
+                color: #111;
+                margin: 20px;
+                background: #f7f9fc;
+            }
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            h1 {
+                margin: 0;
+                font-size: 20px;
+            }
+            .auth-container {
+                position: relative;
+            }
+            .auth-container button {
+                padding: 8px 16px;
+                font-size: 14px;
+                font-weight: 600;
+                border-radius: 8px;
+                border: 1px solid #ddd;
+                background-color: #fff;
+                cursor: pointer;
+                transition: background-color 0.2s;
+            }
+            .auth-container button:hover {
+                background-color: #f5f5f5;
+            }
+            .user-info {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+            }
+            .user-info .email {
+                font-size: 14px;
+                color: var(--muted);
+            }
+            .user-info button {
+                font-size: 14px;
+                color: var(--accent);
+                background: none;
+                border: none;
+                cursor: pointer;
+                padding: 0;
             }
             .hidden {
                 display: none;
             }
+            .day {
+                margin: 18px 0;
+                padding: 12px;
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+            }
+            .day-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 12px;
+            }
+            .day-header .date {
+                font-weight: 600;
+            }
+            .streams-table {
+                width: 100%;
+                border-collapse: collapse;
+                table-layout: fixed;
+            }
+            .streams-table thead th {
+                position: sticky;
+                top: 0;
+                background: linear-gradient(180deg, #fff, #fbfdff);
+                z-index: 2;
+                border-bottom: 1px solid #eee;
+                padding: 8px;
+                font-weight: 700;
+                text-align: left;
+            }
+            .streams-table td {
+                vertical-align: top;
+                padding: 8px;
+                border-bottom: 1px dashed #eee;
+                background: white;
+                transition: background-color 0.3s ease; /* Smooth transition for highlighting */
+            }
+            .streams-table td.clickable {
+                cursor: pointer;
+            }
+            .streams-table td.highlighted {
+                background-color: var(--highlight-bg) !important;
+            }
+            .time-col {
+                width: 12%;
+                white-space: nowrap;
+                padding-right: 12px;
+                font-weight: 600;
+                color: var(--muted);
+            }
+            .session {
+                margin-bottom: 8px;
+                padding: 8px;
+                border-radius: 6px;
+                background: linear-gradient(180deg, #fff, #fcffff);
+                border: 1px solid #e6f0fb;
+            }
+            .session .title {
+                font-weight: 700;
+                color: var(--accent);
+                margin-bottom: 4px;
+            }
+            .session .meta {
+                font-size: 12px;
+                color: var(--muted);
+            }
+            .session a {
+                color: inherit;
+                text-decoration: none;
+            }
+            .empty {
+                color: #bbb;
+                font-size: 13px;
+                padding: 6px;
+            }
+            .legend {
+                font-size: 13px;
+                color: var(--muted);
+                margin-top: 8px;
+            }
+            @media (max-width: 900px) {
+                .streams-table thead th:not(:first-child) {
+                    display: none;
+                }
+                .streams-table td:not(:first-child) {
+                    display: none;
+                }
+            }
         </style>
     </head>
-    <body
-        class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-900"
-    >
-        <div
-            id="app-container"
-            class="w-full max-w-md mx-auto bg-white dark:bg-gray-800 shadow-xl rounded-2xl p-8 transition-all duration-300"
-        >
-            <!-- Logged Out View -->
-            <div id="logged-out-view">
-                <div class="text-center">
-                    <svg
-                        class="mx-auto h-12 w-auto text-blue-600"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.311a7.5 7.5 0 00-7.5 0C4.58 19.64 3 21.732 3 24h18c0-2.268-1.58-4.36-4.125-5.212z"
-                        />
-                    </svg>
-                    <h1
-                        class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                    >
-                        Welcome to Your App
-                    </h1>
-                    <p class="mt-2 text-base text-gray-600 dark:text-gray-300">
-                        Sign in with your Google account to save your private
-                        notes.
-                    </p>
-                </div>
-                <button
-                    id="login-btn"
-                    class="mt-8 w-full inline-flex justify-center items-center gap-3 bg-blue-600 hover:bg-blue-700 focus-visible:outline-blue-600 text-white font-semibold py-3 px-4 rounded-lg shadow-md transition-transform transform hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
-                >
-                    <svg
-                        class="w-5 h-5"
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fab"
-                        data-icon="google"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 488 512"
-                    >
-                        <path
-                            fill="currentColor"
-                            d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 126 23.4 172.9 61.9l-72.2 68.7C305.2 97.5 277.2 80 248 80c-82.3 0-148.9 67.5-148.9 150.8s66.6 150.8 148.9 150.8c99.9 0 127.9-81.5 131.6-120.3H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"
-                        ></path>
-                    </svg>
-                    Sign In with Google
-                </button>
-            </div>
-
-            <!-- Logged In View -->
-            <div id="logged-in-view" class="hidden">
-                <div class="flex justify-between items-center mb-6">
-                    <div>
-                        <h2
-                            class="text-2xl font-bold text-gray-900 dark:text-white"
-                        >
-                            Your Private Notes
-                        </h2>
-                        <p
-                            id="user-email"
-                            class="text-sm text-gray-500 dark:text-gray-400"
-                        >
-                            Loading...
-                        </p>
-                    </div>
-                    <button
-                        id="logout-btn"
-                        class="text-sm font-medium text-blue-600 hover:text-blue-500 dark:hover:text-blue-400"
-                    >
-                        Sign Out
-                    </button>
-                </div>
-
-                <!-- Form to add a new note -->
-                <div class="mb-6">
-                    <label
-                        for="note-input"
-                        class="block text-sm font-medium leading-6 text-gray-900 dark:text-gray-200"
-                        >New Note</label
-                    >
-                    <div class="mt-2 flex rounded-lg shadow-sm">
-                        <input
-                            type="text"
-                            id="note-input"
-                            class="block w-full rounded-l-md border-0 py-2.5 text-gray-900 dark:bg-gray-700 dark:text-white ring-1 ring-inset ring-gray-300 dark:ring-gray-600 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm"
-                            placeholder="What's on your mind?"
-                        />
-                        <button
-                            id="add-note-btn"
-                            class="relative -ml-px inline-flex items-center gap-x-1.5 rounded-r-md px-3 py-2 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700"
-                        >
-                            Add
-                        </button>
-                    </div>
-                </div>
-
-                <!-- List of notes -->
-                <div id="notes-list" class="space-y-3">
-                    <p class="text-center text-gray-500 dark:text-gray-400">
-                        No notes yet. Add one above!
-                    </p>
+    <body>
+        <div class="header">
+            <h1>Conference program — concurrent streams</h1>
+            <div class="auth-container">
+                <button id="login-btn">Login with Google</button>
+                <div id="user-info" class="user-info hidden">
+                    <span id="user-email" class="email"></span>
+                    <button id="logout-btn">Sign Out</button>
                 </div>
             </div>
         </div>
 
-        <!-- Firebase SDKs -->
+        <div id="root">Loading…</div>
+
         <script type="module">
-            // Import functions from the Firebase SDKs
+            // Firebase SDK Imports
             import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
             import {
                 getAuth,
@@ -144,19 +181,14 @@
             } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
             import {
                 getFirestore,
-                collection,
-                addDoc,
-                query,
-                onSnapshot,
-                serverTimestamp,
                 doc,
-                deleteDoc,
+                setDoc,
+                onSnapshot,
             } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
 
-            // --- 1. CONFIGURATION & INITIALIZATION ---
+            // --- 1. FIREBASE CONFIG & INITIALIZATION ---
 
-            // IMPORTANT: Replace the placeholder values below with your own Firebase project's configuration.
-            // You can find this in your Firebase project settings -> General -> Your apps -> SDK setup and configuration.
+            // IMPORTANT: Replace with your Firebase project's configuration
             const firebaseConfig = {
                 apiKey: "AIzaSyD_HhVzoRqw7dPcy5VULFou9OnOQxbfzs8",
                 authDomain: "era-2025.firebaseapp.com",
@@ -167,197 +199,296 @@
                 measurementId: "G-LWK2XKQ8ZH",
             };
 
-            // This is a fallback for the app ID, using the one from your config.
-            const appId = firebaseConfig.projectId;
-
-            // Initialize Firebase
             const app = initializeApp(firebaseConfig);
             const auth = getAuth(app);
             const db = getFirestore(app);
+            const appId = firebaseConfig.projectId || "conference-app";
 
-            // --- 2. DOM ELEMENT REFERENCES ---
-            const loggedOutView = document.getElementById("logged-out-view");
-            const loggedInView = document.getElementById("logged-in-view");
+            // --- 2. STATE MANAGEMENT ---
+
+            let currentUser = null;
+            let userHighlights = new Set();
+            let unsubscribeFromHighlights = null;
+
+            // --- 3. DOM ELEMENTS ---
+
             const loginBtn = document.getElementById("login-btn");
             const logoutBtn = document.getElementById("logout-btn");
+            const userInfoEl = document.getElementById("user-info");
             const userEmailEl = document.getElementById("user-email");
-            const addNoteBtn = document.getElementById("add-note-btn");
-            const noteInput = document.getElementById("note-input");
-            const notesList = document.getElementById("notes-list");
+            const root = document.getElementById("root");
 
-            let currentUserId = null;
-            let unsubscribeFromNotes = null; // To hold the listener cleanup function
+            // --- 4. AUTHENTICATION ---
 
-            // --- 3. AUTHENTICATION LOGIC ---
-
-            // Listen for authentication state changes
             onAuthStateChanged(auth, (user) => {
                 if (user) {
                     // User is signed in
-                    currentUserId = user.uid;
-                    userEmailEl.textContent = `Signed in as ${
-                        user.email || "Anonymous User"
-                    }`;
-                    showLoggedInView();
-                    listenToNotes();
+                    currentUser = user;
+                    loginBtn.classList.add("hidden");
+                    userInfoEl.classList.remove("hidden");
+                    userEmailEl.textContent = user.displayName || user.email;
+                    listenForHighlights(user.uid);
+                    document.body.classList.add("logged-in");
                 } else {
                     // User is signed out
-                    currentUserId = null;
-                    showLoggedOutView();
-                    if (unsubscribeFromNotes) {
-                        unsubscribeFromNotes(); // Detach the old listener
+                    currentUser = null;
+                    loginBtn.classList.remove("hidden");
+                    userInfoEl.classList.add("hidden");
+                    userEmailEl.textContent = "";
+                    if (unsubscribeFromHighlights) {
+                        unsubscribeFromHighlights();
                     }
-                    notesList.innerHTML =
-                        '<p class="text-center text-gray-500 dark:text-gray-400">Sign in to see your notes.</p>';
+                    userHighlights.clear();
+                    updateVisibleHighlights();
+                    document.body.classList.remove("logged-in");
                 }
             });
 
-            // Sign in with Google
             loginBtn.addEventListener("click", async () => {
                 const provider = new GoogleAuthProvider();
                 try {
                     await signInWithPopup(auth, provider);
                 } catch (error) {
-                    console.error("Google Sign-In Error:", error);
-                    if (error.code === "auth/popup-blocked") {
-                        alert(
-                            "Popup was blocked by the browser. Please allow popups for this site and try again."
-                        );
-                    }
+                    console.error("Sign-in error", error);
                 }
             });
 
-            // Sign out
             logoutBtn.addEventListener("click", async () => {
                 try {
                     await signOut(auth);
                 } catch (error) {
-                    console.error("Sign Out Error:", error);
+                    console.error("Sign-out error", error);
                 }
             });
 
-            // --- 4. FIRESTORE (DATABASE) LOGIC ---
+            // --- 5. FIRESTORE & HIGHLIGHT LOGIC ---
 
-            // Listen for real-time updates to the user's notes
-            function listenToNotes() {
-                if (!currentUserId) return;
+            function listenForHighlights(uid) {
+                const docPath = `/artifacts/${appId}/users/${uid}/highlights/sessions`;
+                const highlightsDocRef = doc(db, docPath);
 
-                // This is the private path for the current user's data
-                const notesCollectionPath = `/artifacts/${appId}/users/${currentUserId}/notes`;
-                const q = query(collection(db, notesCollectionPath));
-
-                // onSnapshot creates a real-time listener
-                unsubscribeFromNotes = onSnapshot(
-                    q,
-                    (querySnapshot) => {
-                        if (querySnapshot.empty) {
-                            notesList.innerHTML =
-                                '<p class="text-center text-gray-500 dark:text-gray-400">No notes yet. Add one above!</p>';
-                            return;
-                        }
-
-                        let notesHtml = "";
-                        // The sorting is done on the client-side to avoid complex Firestore indexes
-                        const docs = querySnapshot.docs
-                            .map((doc) => ({ id: doc.id, ...doc.data() }))
-                            .sort(
-                                (a, b) =>
-                                    (b.createdAt?.seconds || 0) -
-                                    (a.createdAt?.seconds || 0)
-                            );
-
-                        docs.forEach((noteData) => {
-                            notesHtml += createNoteElement(
-                                noteData.text,
-                                noteData.id
-                            );
-                        });
-                        notesList.innerHTML = notesHtml;
-
-                        // Add event listeners to the new delete buttons
-                        document
-                            .querySelectorAll(".delete-note-btn")
-                            .forEach((button) => {
-                                button.addEventListener(
-                                    "click",
-                                    handleDeleteNote
+                unsubscribeFromHighlights = onSnapshot(
+                    highlightsDocRef,
+                    (docSnap) => {
+                        userHighlights.clear();
+                        if (docSnap.exists() && docSnap.data().sessionIds) {
+                            docSnap
+                                .data()
+                                .sessionIds.forEach((id) =>
+                                    userHighlights.add(id)
                                 );
-                            });
-                    },
-                    (error) => {
-                        console.error("Error listening to notes:", error);
-                        notesList.innerHTML =
-                            '<p class="text-center text-red-500">Could not fetch notes.</p>';
+                        }
+                        updateVisibleHighlights();
                     }
                 );
             }
 
-            // Add a new note to Firestore
-            addNoteBtn.addEventListener("click", async () => {
-                const noteText = noteInput.value.trim();
-                if (noteText && currentUserId) {
-                    try {
-                        const notesCollectionPath = `/artifacts/${appId}/users/${currentUserId}/notes`;
-                        await addDoc(collection(db, notesCollectionPath), {
-                            text: noteText,
-                            createdAt: serverTimestamp(), // Adds a server-side timestamp
+            async function handleCellClick(event) {
+                if (!currentUser) return;
+
+                const cell = event.currentTarget;
+                const cellId = cell.dataset.cellId;
+                if (!cellId) return;
+
+                if (userHighlights.has(cellId)) {
+                    userHighlights.delete(cellId);
+                } else {
+                    userHighlights.add(cellId);
+                }
+
+                // Update UI immediately for responsiveness
+                cell.classList.toggle("highlighted");
+
+                // Save to Firestore
+                const docPath = `/artifacts/${appId}/users/${currentUser.uid}/highlights/sessions`;
+                const highlightsDocRef = doc(db, docPath);
+                await setDoc(highlightsDocRef, {
+                    sessionIds: Array.from(userHighlights),
+                });
+            }
+
+            function updateVisibleHighlights() {
+                const allCells = document.querySelectorAll("[data-cell-id]");
+                allCells.forEach((cell) => {
+                    const cellId = cell.dataset.cellId;
+                    if (userHighlights.has(cellId)) {
+                        cell.classList.add("highlighted");
+                    } else {
+                        cell.classList.remove("highlighted");
+                    }
+                });
+            }
+
+            // --- 6. RENDER CONFERENCE PROGRAM ---
+
+            async function renderProgram() {
+                try {
+                    const res = await fetch("./conference_program.json");
+                    if (!res.ok) throw new Error(res.statusText);
+                    const data = await res.json();
+
+                    root.innerHTML = ""; // Clear "Loading..." message
+
+                    const byDay = {};
+                    for (const item of data) {
+                        const day = item.day || "Unknown";
+                        const time = (item.time || "").trim() || "TBA";
+                        const loc =
+                            (item.location || "General").trim() === "N/A"
+                                ? "General"
+                                : item.location.trim();
+                        if (!byDay[day]) byDay[day] = [];
+                        byDay[day].push({ ...item, time, location: loc });
+                    }
+
+                    const sortWeekdays = (arr) => {
+                        const order = [
+                            "Monday",
+                            "Tuesday",
+                            "Wednesday",
+                            "Thursday",
+                            "Friday",
+                            "Saturday",
+                            "Sunday",
+                        ];
+                        return arr.sort(
+                            (a, b) => order.indexOf(a) - order.indexOf(b)
+                        );
+                    };
+
+                    const days = sortWeekdays(Object.keys(byDay));
+
+                    for (const day of days) {
+                        // ... [rest of the table rendering logic remains the same]
+                        const sessions = byDay[day];
+                        const locSet = new Set(sessions.map((s) => s.location));
+                        const locations = Array.from(locSet).sort((a, b) => {
+                            const order = (loc) => {
+                                if (/auditorium/i.test(loc)) return 0;
+                                if (/\bB1\b/i.test(loc)) return 1;
+                                if (/\bB2\b/i.test(loc)) return 2;
+                                if (/\bB3\b/i.test(loc)) return 3;
+                                if (/\bRoom\b/i.test(loc)) return 4;
+                                if (/Plaza/i.test(loc)) return 5;
+                                if (loc === "General") return 10;
+                                return 6;
+                            };
+                            return order(a) - order(b) || a.localeCompare(b);
                         });
-                        noteInput.value = ""; // Clear input field
-                    } catch (error) {
-                        console.error("Error adding document: ", error);
+
+                        const byTime = {};
+                        for (const s of sessions) {
+                            if (!byTime[s.time]) byTime[s.time] = [];
+                            byTime[s.time].push(s);
+                        }
+
+                        const parseMins = (t) => {
+                            const m = t.match(/(\d{1,2}):(\d{2})/);
+                            return m
+                                ? parseInt(m[1], 10) * 60 + parseInt(m[2], 10)
+                                : 24 * 60;
+                        };
+                        const times = Object.keys(byTime).sort(
+                            (a, b) =>
+                                parseMins(a) - parseMins(b) ||
+                                a.localeCompare(b)
+                        );
+
+                        const dayEl = document.createElement("section");
+                        dayEl.className = "day";
+                        dayEl.innerHTML = `<div class="day-header"><div class="date">${day}</div><div class="legend">Streams: ${locations.join(
+                            " · "
+                        )}</div></div>`;
+
+                        const table = document.createElement("table");
+                        table.className = "streams-table";
+                        table.innerHTML = `<thead><tr><th class="time-col">Time</th>${locations
+                            .map((l) => `<th>${l}</th>`)
+                            .join("")}</tr></thead>`;
+
+                        const tbody = document.createElement("tbody");
+                        for (const time of times) {
+                            const row = document.createElement("tr");
+                            row.innerHTML = `<td class="time-col">${time}</td>`;
+
+                            for (const loc of locations) {
+                                const cell = document.createElement("td");
+                                // Generate a unique, stable ID for each cell
+                                const cellId = `${day}-${time}-${loc}`
+                                    .replace(/[\s:/]/g, "-")
+                                    .toLowerCase();
+                                cell.dataset.cellId = cellId;
+                                cell.classList.add("clickable");
+                                cell.addEventListener("click", handleCellClick);
+
+                                const items = byTime[time].filter(
+                                    (s) => s.location === loc
+                                );
+                                if (items.length === 0) {
+                                    cell.innerHTML = `<div class="empty">&nbsp;</div>`;
+                                } else {
+                                    cell.innerHTML = items
+                                        .map((it) => {
+                                            const aStart =
+                                                it.url && it.url !== "N/A"
+                                                    ? `<a href="${it.url}" target="_blank" rel="noopener">`
+                                                    : "";
+                                            const aEnd = aStart ? "</a>" : "";
+                                            const authors =
+                                                it.authors &&
+                                                it.authors !== "N/A"
+                                                    ? `<div class="meta">${escapeHtml(
+                                                          it.authors
+                                                      )}</div>`
+                                                    : "";
+                                            const details =
+                                                it.details &&
+                                                it.details !== "N/A"
+                                                    ? `<div class="meta">${escapeHtml(
+                                                          it.details
+                                                      ).slice(0, 300)}${
+                                                          it.details.length >
+                                                          300
+                                                              ? "…"
+                                                              : ""
+                                                      }</div>`
+                                                    : "";
+                                            return `<div class="session">${aStart}<div class="title">${escapeHtml(
+                                                it.title
+                                            )}</div>${aEnd}${authors}${details}</div>`;
+                                        })
+                                        .join("");
+                                }
+                                row.appendChild(cell);
+                            }
+                            tbody.appendChild(row);
+                        }
+                        table.appendChild(tbody);
+                        dayEl.appendChild(table);
+                        root.appendChild(dayEl);
                     }
-                }
-            });
-
-            // Allow submitting note with Enter key
-            noteInput.addEventListener("keypress", (e) => {
-                if (e.key === "Enter") {
-                    addNoteBtn.click();
-                }
-            });
-
-            // Delete a note from Firestore
-            async function handleDeleteNote(event) {
-                const noteId = event.currentTarget.dataset.id;
-                if (noteId && currentUserId) {
-                    try {
-                        const noteDocPath = `/artifacts/${appId}/users/${currentUserId}/notes/${noteId}`;
-                        await deleteDoc(doc(db, noteDocPath));
-                        // The onSnapshot listener will automatically update the UI
-                    } catch (error) {
-                        console.error("Error deleting note:", error);
-                    }
+                    updateVisibleHighlights(); // Apply highlights after table is built
+                } catch (e) {
+                    root.innerHTML = `<p style="color:#900">Failed to load conference program. (${e.message})</p>`;
                 }
             }
 
-            // --- 5. UI HELPER FUNCTIONS ---
-
-            function showLoggedInView() {
-                loggedOutView.classList.add("hidden");
-                loggedInView.classList.remove("hidden");
+            function escapeHtml(str) {
+                if (!str) return "";
+                return String(str).replace(
+                    /[&<>"']/g,
+                    (s) =>
+                        ({
+                            "&": "&amp;",
+                            "<": "&lt;",
+                            ">": "&gt;",
+                            '"': "&quot;",
+                            "'": "&#39;",
+                        }[s])
+                );
             }
 
-            function showLoggedOutView() {
-                loggedInView.classList.add("hidden");
-                loggedOutView.classList.remove("hidden");
-            }
-
-            function createNoteElement(text, id) {
-                // Sanitize text before inserting into HTML
-                const sanitizedText = text
-                    .replace(/</g, "&lt;")
-                    .replace(/>/g, "&gt;");
-                return `
-                <div class="flex items-center justify-between p-3 bg-gray-100 dark:bg-gray-700 rounded-lg">
-                    <p class="text-gray-800 dark:text-gray-200">${sanitizedText}</p>
-                    <button data-id="${id}" class="delete-note-btn text-gray-400 hover:text-red-500 dark:hover:text-red-400">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm4 0a1 1 0 012 0v6a1 1 0 11-2 0V8z" clip-rule="evenodd" />
-                        </svg>
-                    </button>
-                </div>
-            `;
-            }
+            renderProgram();
         </script>
     </body>
 </html>

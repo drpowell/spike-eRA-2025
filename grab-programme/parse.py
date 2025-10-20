@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 import json
 import re
 import os
+import argparse
+import sys
 
 CACHE_DIR = 'html_cache'
 
@@ -54,14 +56,23 @@ def get_talk_details(talk_url):
     if not html_content:
         return "Failed to load HTML content."
 
+    return parse_details_html(html_content)
+
+
+def parse_details_html(html_content):
+    """
+    Shared parser for a talk detail HTML blob (bytes or str).
+    Returns the extracted details string or an error message.
+    """
     try:
         soup = BeautifulSoup(html_content, 'html.parser')
         # The main content of the talk pages seems to be within this class structure.
-        content_div = soup.find('div', class_='wpb_wrapper')
+        content_div = soup.select_one('div.gt-site-inner div.gt-content')
+        # print(content_div)
         if content_div:
             # Extract text from all paragraphs within the main content wrapper
             paragraphs = content_div.find_all('p')
-            details = ' '.join(p.get_text(strip=True) for p in paragraphs)
+            details = '\n'.join(p.get_text(strip=True) for p in paragraphs)
             # A simple cleanup to remove common boilerplate text
             if "Please note the program" in details:
                 return "Details not found on this page."
@@ -190,12 +201,40 @@ def parse_program(html_content):
     return all_talks
 
 
+def extract_details_from_cached(cache_filename):
+    """
+    Read a cached HTML file from CACHE_DIR and extract the talk details
+    (using the same parsing logic as get_talk_details).
+    """
+    possible_names = [cache_filename, f"{cache_filename}.html"]
+    for name in possible_names:
+        # path = os.path.join(CACHE_DIR, name)
+        path = name
+        if os.path.exists(path):
+            with open(path, 'r', encoding='utf-8') as f:
+                html = f.read()
+            return parse_details_html(html)
+    return f"Cached file not found in {CACHE_DIR}: tried {possible_names}"
+
+
 if __name__ == "__main__":
-    html_file_path = 'Program.html'
-    json_output_path = 'conference_program.json'
+    parser = argparse.ArgumentParser(
+        description="Parse conference program or test cached detail pages.")
+    parser.add_argument(
+        '--cache-file', help="Name of a cached HTML file in html_cache to parse (for testing details).")
+    args = parser.parse_args()
 
     # Create cache directory if it doesn't exist
     os.makedirs(CACHE_DIR, exist_ok=True)
+
+    if args.cache_file:
+        result = extract_details_from_cached(args.cache_file)
+        print("\n--- Extracted Details ---\n")
+        print(result)
+        sys.exit(0)
+
+    html_file_path = 'Program.html'
+    json_output_path = 'conference_program.json'
 
     if not os.path.exists(html_file_path):
         print(f"Error: The file '{html_file_path}' was not found.")
