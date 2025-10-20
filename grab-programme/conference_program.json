@@ -1,0 +1,1902 @@
+[
+    {
+        "day": "Monday",
+        "time": "08:30 – 16:00",
+        "location": "N/A",
+        "session_chair": "N/A",
+        "title": "Registration Open | Plaza P6-8 Concourse",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Monday",
+        "time": "09:00 – 10:30",
+        "location": "Plaza P6",
+        "session_chair": "N/A",
+        "title": "Fundamentals of Accelerated Computing with CUDA Python",
+        "authors": "Johan Barthelemy",
+        "url": "https://conference.eresearch.edu.au/fundamentals-of-accelerated-computing-with-cuda-python/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "09:00 – 10:30",
+        "location": "Plaza P7",
+        "session_chair": "N/A",
+        "title": "Solving Data Management Challenges with Globus – from Zero to Hero in one day",
+        "authors": "Alex Ip, Kyle Chard, Steele Cooke, Greg D’Arcy, Chris Myers",
+        "url": "https://conference.eresearch.edu.au/solving-data-management-challenges-with-globus-from-zero-to-hero-in-one-day/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "09:00 – 10:30",
+        "location": "Plaza P8",
+        "session_chair": "N/A",
+        "title": "IBM Storage Scale UserGroup, sponsored by IBM TechXchange",
+        "authors": "Spaces are limited. Don’t miss out.",
+        "url": "https://conference.eresearch.edu.au/ibm-storage-scale-usergroup-sponsored-by-ibm-techxchange/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "10:30 – 11:00",
+        "location": "Plaza P6",
+        "session_chair": "N/A",
+        "title": "Morning Tea | Plaza P6 – P8 Concourse",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Monday",
+        "time": "11:00 – 12:30",
+        "location": "Plaza P6",
+        "session_chair": "N/A",
+        "title": "Fundamentals of Accelerated Computing with CUDA Python continued",
+        "authors": "Johan Barthelemy",
+        "url": "https://conference.eresearch.edu.au/fundamentals-of-accelerated-computing-with-cuda-python/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "11:00 – 12:30",
+        "location": "Plaza P7",
+        "session_chair": "N/A",
+        "title": "Solving Data Management Challenges with Globus – from Zero to Hero in one day continued",
+        "authors": "Alex Ip, Kyle Chard, Steele Cooke, Greg D’Arcy, Chris Myers",
+        "url": "https://conference.eresearch.edu.au/solving-data-management-challenges-with-globus-from-zero-to-hero-in-one-day/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "11:00 – 12:30",
+        "location": "Plaza P8",
+        "session_chair": "N/A",
+        "title": "IBM Storage Scale UserGroup, sponsored by IBM TechXchange",
+        "authors": "Spaces are limited. Don’t miss out.",
+        "url": "https://conference.eresearch.edu.au/ibm-storage-scale-usergroup-sponsored-by-ibm-techxchange/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "12:30 – 13:30",
+        "location": "Plaza P6",
+        "session_chair": "N/A",
+        "title": "Lunch | Plaza P6 – P8 Concourse",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Monday",
+        "time": "13:30 – 15:00",
+        "location": "Plaza P6",
+        "session_chair": "N/A",
+        "title": "Fundamentals of Accelerated Computing with CUDA Python continued",
+        "authors": "Johan Barthelemy",
+        "url": "https://conference.eresearch.edu.au/fundamentals-of-accelerated-computing-with-cuda-python/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "13:30 – 15:00",
+        "location": "Plaza P7",
+        "session_chair": "N/A",
+        "title": "Solving Data Management Challenges with Globus – from Zero to Hero in one day continued",
+        "authors": "Alex Ip, Kyle Chard, Steele Cooke, Greg D’Arcy, Chris Myers",
+        "url": "https://conference.eresearch.edu.au/solving-data-management-challenges-with-globus-from-zero-to-hero-in-one-day/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "13:30 – 15:00",
+        "location": "Plaza P8",
+        "session_chair": "N/A",
+        "title": "IBM Storage Scale UserGroup, sponsored by IBM TechXchange",
+        "authors": "Spaces are limited. Don’t miss out.",
+        "url": "https://conference.eresearch.edu.au/ibm-storage-scale-usergroup-sponsored-by-ibm-techxchange/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "13:30 – 15:00",
+        "location": "Plaza P9",
+        "session_chair": "N/A",
+        "title": "AWS Workshop Part 1: Build a ‘Virtual Fugaku’ in AWS.",
+        "authors": "Registrations are free, but numbers are limited. Register your place when registering for the conference.",
+        "url": "https://conference.eresearch.edu.au/build-a-virtual-fugaku-in-aws/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "15:00 – 15:30",
+        "location": "Plaza P6",
+        "session_chair": "N/A",
+        "title": "Afternoon Tea | Plaza P6 – P8 Concourse",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Monday",
+        "time": "15:30 – 17:00",
+        "location": "Plaza P6",
+        "session_chair": "N/A",
+        "title": "Fundamentals of Accelerated Computing with CUDA Python continued",
+        "authors": "Johan Barthelemy",
+        "url": "https://conference.eresearch.edu.au/fundamentals-of-accelerated-computing-with-cuda-python/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "15:30 – 17:00",
+        "location": "Plaza P7",
+        "session_chair": "N/A",
+        "title": "Solving Data Management Challenges with Globus – from Zero to Hero in one day continued",
+        "authors": "Alex Ip, Kyle Chard, Steele Cooke, Greg D’Arcy, Chris Myers",
+        "url": "https://conference.eresearch.edu.au/solving-data-management-challenges-with-globus-from-zero-to-hero-in-one-day/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "15:30 – 17:00",
+        "location": "Plaza P8",
+        "session_chair": "N/A",
+        "title": "IBM Storage Scale UserGroup, sponsored by IBM TechXchange",
+        "authors": "Spaces are limited. Don’t miss out.",
+        "url": "https://conference.eresearch.edu.au/ibm-storage-scale-usergroup-sponsored-by-ibm-techxchange/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "15:30 – 17:00",
+        "location": "Plaza P9",
+        "session_chair": "N/A",
+        "title": "AWS Workshop Part 2: Vibe-coding with Amazon Q Developer!",
+        "authors": "Registrations are free, but numbers are limited. Register your place when registering for the conference.",
+        "url": "https://conference.eresearch.edu.au/vibe-coding-with-amazon-q-developer/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Monday",
+        "time": "17:30 – 19:00",
+        "location": "Plaza P6",
+        "session_chair": "N/A",
+        "title": "Computer Animated Film session – Boulevard Auditorium",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Tuesday",
+        "time": "07:45 – 17:30",
+        "location": "N/A",
+        "session_chair": "N/A",
+        "title": "Registration Open | Boulevard Auditorium Registration Desk",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Tuesday",
+        "time": "07:45 – 08:30",
+        "location": "N/A",
+        "session_chair": "N/A",
+        "title": "Networking Breakfast, Exhibition & Poster Viewing | Boulevard Foyer Exhibition AreaMake the most of your conference experience by attending the breakfast on the first day, an inclusive opportunity for all participants to casually break the ice, share ideas, and build essential professional connections before the start of formal sessions.",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Tuesday",
+        "time": "08:30 – 08:45",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Welcome to Country",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Tuesday",
+        "time": "08:45 – 09:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "WelcomeNatasha Simons, Luc Betbeder-Matibet, Co-Chair, 2025 eResearch Australasia Conference",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Tuesday",
+        "time": "09:00 – 09:10",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Prof. Paul Bonnington",
+        "authors": ", Pro-Vice-Chancellor (Research Infrastructure), The University of Queensland",
+        "url": "https://conference.eresearch.edu.au/speaker/professor-paul-bonnington/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "09:10-09:50",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "The exploration of Mars through Science, technology,data,and supporting infrastructure",
+        "authors": ", Executive Dean, School of Engineering, Edith Cowan University",
+        "url": "https://conference.eresearch.edu.au/the-exploration-of-mars-through-science-technology-data-and-supporting-infrastructure/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "09:50-10:30",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Trusted Data Repositories as an Essential Element of the Research Enterprise",
+        "authors": ", Director, World Data System-International Technology Office",
+        "url": "https://conference.eresearch.edu.au/trusted-data-repositories-as-an-essential-element-of-the-research-enterprise/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "10:30 – 11:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Morning Tea, Exhibition, Poster Viewing | Boulevard Foyer",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "WEHI’s Spatial Omics Data Analytics (SODA) Hub: an environment for spatial analysis from data generation to analysis and beyond",
+        "authors": "Julie Iskander",
+        "url": "https://conference.eresearch.edu.au/wehis-spatial-omics-data-analytics-soda-hub-an-environment-for-spatial-analysis-from-data-generation-to-analysis-and-beyond/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard B1",
+        "session_chair": "Vanessa Crosby",
+        "title": "Unlocking Collaboration: How Swinburne Leverages Research Link Data and PIDs for Strategic Partnerships",
+        "authors": "Amir Aryani",
+        "url": "https://conference.eresearch.edu.au/unlocking-collaboration-how-swinburne-leverages-research-link-data-and-pids-for-strategic-partnerships/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard B2",
+        "session_chair": "Marlies Hankel",
+        "title": "The Nectar National Node: A New Foundation for Scalable, Secure, andCollaborativeResearch",
+        "authors": "Kaushik Ramesh, Bryce Torcello",
+        "url": "https://conference.eresearch.edu.au/the-nectar-national-node-a-new-foundation-for-scalable-secure-and-collaborative-research/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard B3",
+        "session_chair": "Reyna Broadhurst",
+        "title": "Delivering enduring infrastructure: the Planet Research Data Commons",
+        "authors": "Kerry Levett, Jonathan Smillie",
+        "url": "https://conference.eresearch.edu.au/delivering-enduring-infrastructure-the-planet-research-data-commons/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard Room",
+        "session_chair": "Ellen Lyrtzis",
+        "title": "Global patterns of research data storage and management",
+        "authors": "Tom Honeyman",
+        "url": "https://conference.eresearch.edu.au/global-patterns-of-research-data-storage-and-management/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "Transforming Chemical Research Workflows with Semantic and FAIR Data Infrastructures",
+        "authors": "Oliver Koepler",
+        "url": "https://conference.eresearch.edu.au/transforming-chemical-research-workflows-with-semantic-and-fair-data-infrastructures/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard B1",
+        "session_chair": "Vanessa Crosby",
+        "title": "RAiD: the purpose built persistent identifier for projects",
+        "authors": "Matthias Liffers",
+        "url": "https://conference.eresearch.edu.au/raid-the-purpose-built-persistent-identifier-for-projects/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard B2",
+        "session_chair": "Marlies Hankel",
+        "title": "A Cloud-based Grid Computing Site",
+        "authors": "Jonathan Woithe",
+        "url": "https://conference.eresearch.edu.au/a-cloud-based-grid-computing-site/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard B3",
+        "session_chair": "Reyna Broadhurst",
+        "title": "Uniting Research Infrastructures for Solid Earth Science: From Shared Vision to Global Action",
+        "authors": "Helen Glaves",
+        "url": "https://conference.eresearch.edu.au/uniting-research-infrastructures-for-solid-earth-science-from-shared-vision-to-global-action/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard Room",
+        "session_chair": "Ellen Lyrtzis",
+        "title": "Transforming Research Data Experience at UNSW",
+        "authors": "Rizwan Sathakkathulla, Mohammad Islam",
+        "url": "https://conference.eresearch.edu.au/transforming-research-data-experience-at-unsw/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "Image Processing Portal (IPP): Scalable web-based microscopy data analysis – Containerization, Orchestration, and HPC migration",
+        "authors": "Nishanthi Dasanayaka, Mark Endrei",
+        "url": "https://conference.eresearch.edu.au/image-processing-portal-ipp-scalable-web-based-microscopy-data-analysis-containerization-orchestration-and-hpc-migration/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard B1",
+        "session_chair": "Vanessa Crosby",
+        "title": "Persistent Identifier-Driven Infrastructure for National Research Discovery: Behind the Scenes of Research Link Australia and Research Data Australia.",
+        "authors": "Enming Zhang, Shikha Chawla",
+        "url": "https://conference.eresearch.edu.au/persistent-identifier-driven-infrastructure-for-national-research-discovery-behind-the-scenes-of-research-link-australia-and-research-data-australia/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard B2",
+        "session_chair": "Marlies Hankel",
+        "title": "Finding sustainable and user accepted solutions to the space and number of files needs of software environments",
+        "authors": "Finding sustainable and user accepted solutions to the space and number of files needs of software environments",
+        "url": "https://conference.eresearch.edu.au/finding-sustainable-and-user-accepted-solutions-to-the-space-and-number-of-files-needs-of-software-environments/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard B3",
+        "session_chair": "Reyna Broadhurst",
+        "title": "Towards a Coherent and Coordinated Spectrum of Data Stewardship and Sharing Services",
+        "authors": "Towards a Coherent and Coordinated Spectrum of Data Stewardship and Sharing Services",
+        "url": "https://conference.eresearch.edu.au/towards-a-coherent-and-coordinated-spectrum-of-data-stewardship-and-sharing-services/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard Room",
+        "session_chair": "Ellen Lyrtzis",
+        "title": "From Awareness to Application: Exploring Researchers’ Skills Needs for Using Digital Research Infrastructure",
+        "authors": "From Awareness to Application: Exploring Researchers’ Skills Needs for Using Digital Research Infrastructure",
+        "url": "https://conference.eresearch.edu.au/from-awareness-to-application-exploring-researchers-skills-needs-for-using-digital-research-infrastructure/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "12:00 – 12:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "Bringing the FAIR software principles to the General Atomic and Molecular Electronic Structure System",
+        "authors": "Jorge Luis Galvez Vallejo",
+        "url": "https://conference.eresearch.edu.au/bringing-the-fair-software-principles-to-the-general-atomic-and-molecular-electronic-structure-system/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "12:00 – 12:20",
+        "location": "Boulevard Room",
+        "session_chair": "Ellen Lyrtzis",
+        "title": "PITSCHI: The Imaging Data Management System at CMM, UQ – Enabling FAIR and Persistent Identifier-Driven Research Data Management",
+        "authors": "Rubbiya Ali",
+        "url": "https://conference.eresearch.edu.au/pitschi-the-imaging-data-management-system-at-cmm-uq-enabling-fair-and-persistent-identifier-driven-research-data-management/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "12:20 – 12:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "Minutes-to-Modules: Rapid, Reproducible Software Packaging with Spack and CI for Research HPC on Gadi and Setonix",
+        "authors": "Justin Kin Jun Hew",
+        "url": "https://conference.eresearch.edu.au/minutes-to-modules-rapid-reproducible-software-packaging-with-spack-and-ci-for-research-hpc-on-gadi-and-setonix/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "12:20 – 12:40",
+        "location": "Boulevard Room",
+        "session_chair": "Ellen Lyrtzis",
+        "title": "Driving Australia’s Research Data Ecosystem Capability: The National Persistent Identifier (PID) Strategy and Research Policy",
+        "authors": "Linda O’Brien, Lee Harris",
+        "url": "https://conference.eresearch.edu.au/driving-australias-research-data-ecosystem-capability-the-national-persistent-identifier-pid-strategy-and-research-policy/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "12:40 – 14:10",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "Lunch, Exhibition, Poster Viewing | Boulevard Foyer",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Tuesday",
+        "time": "12:50 – 13:50",
+        "location": "Boulevard B1",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "Lunchtime Networking BoF Session – Charting a path towards a sustainable community of people who work on Research Software",
+        "authors": "Peter Marendy",
+        "url": "https://conference.eresearch.edu.au/charting-a-path-towards-a-sustainable-community-of-people-who-work-on-research-software/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "14:10 – 14:30",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Robert Shen",
+        "title": "BridgingtheGap: A Research-Ready AI/ML Infrastructure on the Nectar Research Cloud",
+        "authors": "Glen Charlton",
+        "url": "https://conference.eresearch.edu.au/bridging-the-gap-a-research-ready-ai-ml-infrastructure-on-the-nectar-research-cloud/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "14:10 – 14:30",
+        "location": "Boulevard B1",
+        "session_chair": "Olivia Davies",
+        "title": "The AuScope Open Science Ar-Ar Data Pipeline: From Instrument to Earthbank",
+        "authors": "Bryant Ware",
+        "url": "https://conference.eresearch.edu.au/the-auscope-open-science-ar-ar-data-pipeline-from-instrument-to-earthbank/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "14:10 – 14:30",
+        "location": "Boulevard B2",
+        "session_chair": "Darya Vanichkina",
+        "title": "Developing a Responsible Use of Generative AI Module for Researchers",
+        "authors": "Shannon Taylor",
+        "url": "https://conference.eresearch.edu.au/developing-a-responsible-use-of-generative-ai-module-for-researchers/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "14:10 – 14:30",
+        "location": "Boulevard B3",
+        "session_chair": "Michael Lynch",
+        "title": "From Register to Real-World Use: Enhancing the Vocabulary Register for Search, Access, and Integration",
+        "authors": "Rana Raad",
+        "url": "https://conference.eresearch.edu.au/from-register-to-real-world-use-enhancing-the-vocabulary-register-for-search-access-and-integration/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "14:10 – 14:30",
+        "location": "Boulevard Room",
+        "session_chair": "Gin Tan",
+        "title": "Shallow budgets, deep impact: Repurposing REDCap for digital intervention research",
+        "authors": "Shaun Grady",
+        "url": "https://conference.eresearch.edu.au/shallow-budgets-deep-impact-repurposing-redcap-for-digital-intervention-research/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "14:30-14:50",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Robert Shen",
+        "title": "Securely Share Your Bare-Metal HPC and AI Cluster without Virtualisation: Modern Multi-tenancy Solutions",
+        "authors": "Werner Scholz",
+        "url": "https://conference.eresearch.edu.au/securely-share-your-bare-metal-hpc-and-ai-cluster-without-virtualisation-modern-multi-tenancy-solutions/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "14:30-14:50",
+        "location": "Boulevard B1",
+        "session_chair": "Olivia Davies",
+        "title": "How and where are you preserving your raw machine observable data for future science?",
+        "authors": "How and where are you preserving your raw machine observable data for future science?",
+        "url": "https://conference.eresearch.edu.au/how-and-where-are-you-preserving-your-raw-machine-observable-data-for-future-science/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "14:30-14:50",
+        "location": "Boulevard B2",
+        "session_chair": "Darya Vanichkina",
+        "title": "Driving AI adoption in research",
+        "authors": "Driving AI adoption in research",
+        "url": "https://conference.eresearch.edu.au/driving-ai-adoption-in-research/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "14:30-14:50",
+        "location": "Boulevard B3",
+        "session_chair": "Michael Lynch",
+        "title": "Sustainable Digital Humanities Collections",
+        "authors": "Sustainable Digital Humanities Collections",
+        "url": "https://conference.eresearch.edu.au/sustainable-digital-humanities-collections/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "14:30-14:50",
+        "location": "Boulevard Room",
+        "session_chair": "Gin Tan",
+        "title": "Future-proofing the digital research infrastructure workforce",
+        "authors": "Future-proofing the digital research infrastructure workforce",
+        "url": "https://conference.eresearch.edu.au/future-proofing-the-digital-research-infrastructure-workforce/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "14:50 – 15:10",
+        "location": "Boulevard Room",
+        "session_chair": "Gin Tan",
+        "title": "Modern Storage for Modern HPC and AI Environments",
+        "authors": "Ben Trinder",
+        "url": "https://conference.eresearch.edu.au/modern-storage-for-modern-hpc-and-ai-environments/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "15:10 – 15:30",
+        "location": "Boulevard Room",
+        "session_chair": "Gin Tan",
+        "title": "Mastering the Maze: Simplifying HPC, Kubernetes, and Secure Software Delivery with DevOps, GitOps, and Platform Engineering",
+        "authors": "Malcolm Haak",
+        "url": "https://conference.eresearch.edu.au/mastering-the-maze-simplifying-hpc-kubernetes-and-secure-software-delivery-with-devops-gitops-and-platform-engineering/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "15:30 – 16:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Robert Shen",
+        "title": "Afternoon Tea, Exhibition, Poster Viewing | Boulevard Foyer",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:00 – 16:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Ai-Lin Soo",
+        "title": "Cultivating Data Stewardship in the Australian Grains Sector: Early Outcomes from the DataHarvest Project",
+        "authors": "Erin Elstermann",
+        "url": "https://conference.eresearch.edu.au/cultivating-data-stewardship-in-the-australian-grains-sector-early-outcomes-from-the-dataharvest-project/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:00 – 16:20",
+        "location": "Boulevard B1",
+        "session_chair": "Liz Stokes",
+        "title": "Architecting Research Data Experiences for Scale: Aligning Infrastructure Intelligence with Data Taxonomy in a Distributed, Resource-Constrained Research Landscape",
+        "authors": "Benjamin Wu",
+        "url": "https://conference.eresearch.edu.au/architecting-research-data-experiences-for-scale-aligning-infrastructure-intelligence-with-data-taxonomy-in-a-distributed-resource-constrained-research-landscape/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:00 – 16:20",
+        "location": "Boulevard B2",
+        "session_chair": "Dianne Brown",
+        "title": "Automated Workflows for Building and Testing Climate Models",
+        "authors": "Tommy Gatti",
+        "url": "https://conference.eresearch.edu.au/automated-workflows-for-building-and-testing-climate-models/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:00 – 16:20",
+        "location": "Boulevard B3",
+        "session_chair": "Ria Hamblett",
+        "title": "“I Don’t Have Data”: Creating Guidelines for Law Researchers",
+        "authors": "Andreas Mertin, Ria Hamblett",
+        "url": "https://conference.eresearch.edu.au/i-dont-have-data-creating-guidelines-for-law-researchers/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:00 – 16:20",
+        "location": "Boulevard Room",
+        "session_chair": "Simon Porter",
+        "title": "Advancing the research landscape: a new institutional repository for the University of Otago",
+        "authors": "Lisa Chisholm, Mandy Phipps-Green",
+        "url": "https://conference.eresearch.edu.au/advancing-the-research-landscape-a-new-institutional-repository-for-the-university-of-otago/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:20 – 16:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Ai-Lin Soo",
+        "title": "Building Scalable Infrastructure for Ecological Modelling and Wildlife Monitoring in Australia",
+        "authors": "Renuka Sharma, Jenna Wraith",
+        "url": "https://conference.eresearch.edu.au/building-scalable-infrastructure-for-ecological-modelling-and-wildlife-monitoring-in-australia/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:20 – 16:40",
+        "location": "Boulevard B1",
+        "session_chair": "Liz Stokes",
+        "title": "Data Versioning: From Principles to Practical Recommendations",
+        "authors": "Jens Klump",
+        "url": "https://conference.eresearch.edu.au/data-versioning-from-principles-to-practical-recommendations/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:20 – 16:40",
+        "location": "Boulevard B2",
+        "session_chair": "Dianne Brown",
+        "title": "AI-Ready Research Data in Australia",
+        "authors": "AI-Ready Research Data in Australia",
+        "url": "https://conference.eresearch.edu.au/ai-ready-research-data-in-australia/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:20 – 16:40",
+        "location": "Boulevard B3",
+        "session_chair": "Ria Hamblett",
+        "title": "“I Don’t Have Data”: Navigating Research Data Management Support for Humanities and Social Sciences Disciplines",
+        "authors": "“I Don’t Have Data”: Navigating Research Data Management Support for Humanities and Social Sciences Disciplines",
+        "url": "https://conference.eresearch.edu.au/i-dont-have-data-2-0-navigating-research-data-management-support-for-humanities-and-social-sciences-disciplines/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:20 – 16:40",
+        "location": "Boulevard Room",
+        "session_chair": "Simon Porter",
+        "title": "Building a National Persistent Identifier Toolkit to Enhance Research Quality, Provenance, and Impact",
+        "authors": "Building a National Persistent Identifier Toolkit to Enhance Research Quality, Provenance, and Impact",
+        "url": "https://conference.eresearch.edu.au/building-a-national-persistent-identifier-toolkit-to-enhance-research-quality-provenance-and-impact/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:40 – 17:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Ai-Lin Soo",
+        "title": "From risk to research asset: DMPs with purpose",
+        "authors": "Philippa Frame",
+        "url": "https://conference.eresearch.edu.au/from-risk-to-research-asset-dmps-with-purpose/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "16:40 – 17:00",
+        "location": "Boulevard Room",
+        "session_chair": "Simon Porter",
+        "title": "A Strategic Community Roadmap for an Australian FAIR Vocabulary Ecosystem",
+        "authors": "Kheeran Dharmawardena",
+        "url": "https://conference.eresearch.edu.au/a-strategic-community-roadmap-for-an-australian-fair-vocabulary-ecosystem/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "17:00 – 17:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Ai-Lin Soo",
+        "title": "DMP Engagement Recipe",
+        "authors": "Yvette Wharton",
+        "url": "https://conference.eresearch.edu.au/dmp-engagement-recipe/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "17:00 – 17:20",
+        "location": "Boulevard Room",
+        "session_chair": "Simon Porter",
+        "title": "Domain-specific vocabulary discovery facilities in Australia: GeoVoc & EnviroVoc",
+        "authors": "Nicholas Car",
+        "url": "https://conference.eresearch.edu.au/domain-specific-vocabulary-discovery-facilities-in-australia-geovoc-envirovoc/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Tuesday",
+        "time": "17:20 – 19:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Ai-Lin Soo",
+        "title": "Welcome Reception | Boulevard Foyer Exhibition AreaThe Welcome Reception offers a prime opportunity for attendees to unwind, connect, and build relationships in a casual setting, creating a positive and collaborative atmosphere that extends beyond formal sessions; additionally, mingling with exhibitors provides a valuable chance to explore innovations, partnerships, and industry insights.",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Wednesday",
+        "time": "08:00 – 17:30",
+        "location": "N/A",
+        "session_chair": "N/A",
+        "title": "Registration | Boulevard Auditorium Registration Desk",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Wednesday",
+        "time": "08:30 -08:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Welcome to Day 2Conference Chairs",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Wednesday",
+        "time": "08:40 – 09:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "The Convergence of HPC, AI, and Quantum: Towards cutting-edge eScience on FugakuNEXT",
+        "authors": ", Director of RIKEN Center for Computational Science (R-CCS)",
+        "url": "https://conference.eresearch.edu.au/the-convergence-of-hpc-ai-and-quantum-towards-cutting-edge-escience-on-fugakunext/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "09:20-10:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Meet the Practitioners",
+        "authors": "Machine Learning Computational Methods Specialist, Computational and Data Intensive Sciences, Research Technology & Operations, Defence Science and Technology Group",
+        "url": "https://conference.eresearch.edu.au/meet-the-practitioners/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "10:00 – 10:30",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "From Lab to Cloud: How Queensland University of Technology (QUT) Transforms Research Through Scalable Infrastructure",
+        "authors": ", Associate Director of Enterprise Technology and Digital Research Infrastructure, Queensland University of Technology",
+        "url": "https://conference.eresearch.edu.au/from-lab-to-cloud-how-queensland-university-of-technology-qut-transforms-research-through-scalable-infrastructure/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "10:30-11:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Morning Tea, Exhibition, Poster Viewing | Boulevard Foyer",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Alex Reid",
+        "title": "Harmonising metadata to improve data discoverability and interoperability",
+        "authors": "Keeva Connolly",
+        "url": "https://conference.eresearch.edu.au/harmonising-metadata-to-improve-data-discoverability-and-interoperability/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard B1",
+        "session_chair": "Natalie House",
+        "title": "SEAF and the promise of International Data Spaces (IDS)",
+        "authors": "Amber Daniels",
+        "url": "https://conference.eresearch.edu.au/seaf-and-the-promise-of-international-data-spaces-ids/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard B2",
+        "session_chair": "Amr Hassan",
+        "title": "The changing face of data risks for research in the age of AI",
+        "authors": "Dianne Brown",
+        "url": "https://conference.eresearch.edu.au/the-changing-face-of-data-risks-for-research-in-the-age-of-ai/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard B3",
+        "session_chair": "Werner Scholz",
+        "title": "Panel Session: Building a Data Discoverability Reference Architecture",
+        "authors": "Andrew Beattie, Leslie Almberg,Isabel Ceron, Yvette Wharton, Ai-Lin Soo, Marlies Hankel",
+        "url": "https://conference.eresearch.edu.au/panel-session-building-a-data-discoverability-reference-architecture/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard Room",
+        "session_chair": "Aditi Subramanya",
+        "title": "Bunny: From Simple Tool to Shared Infrastructure for NHS Cohort Discovery",
+        "authors": "Andy Rae",
+        "url": "https://conference.eresearch.edu.au/bunny-from-simple-tool-to-shared-infrastructure-for-nhs-cohort-discovery/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Alex Reid",
+        "title": "AI-Powered Analysis of ORCID and RLA Data for Technology Landscaping",
+        "authors": "Luhan Cheng",
+        "url": "https://conference.eresearch.edu.au/ai-powered-analysis-of-orcid-and-rla-data-for-technology-landscaping/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard B1",
+        "session_chair": "Natalie House",
+        "title": "Trainstation: An orchestration system for frictionless delivery of Programming and HPC training",
+        "authors": "Aidan Wilson",
+        "url": "https://conference.eresearch.edu.au/trainstation-an-orchestration-system-for-frictionless-delivery-of-programming-and-hpc-training/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard B2",
+        "session_chair": "Amr Hassan",
+        "title": "When AI Goes Rogue: Exposing the Hidden Threats in Language Models",
+        "authors": "Vijay Chakravarthy",
+        "url": "https://conference.eresearch.edu.au/when-ai-goes-rogue-exposing-the-hidden-threats-in-language-models/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard B3",
+        "session_chair": "Werner Scholz",
+        "title": "Safeguarding data, Accelerating discovery: Secure, scalable infrastructure for research innovation",
+        "authors": "Shaun Domingo",
+        "url": "https://conference.eresearch.edu.au/safeguarding-data-accelerating-discovery-secure-scalable-infrastructure-for-research-innovation/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard Room",
+        "session_chair": "Aditi Subramanya",
+        "title": "National Skills Taxonomy",
+        "authors": "Les Kneebone",
+        "url": "https://conference.eresearch.edu.au/national-skills-taxonomy/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Alex Reid",
+        "title": "The importance of being indexed: introducing Genome Tracker by the Australian Reference Genome Atlas",
+        "authors": "Kathryn Hall",
+        "url": "https://conference.eresearch.edu.au/the-importance-of-being-indexed-introducing-genome-tracker-by-the-australian-reference-genome-atlas/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard B1",
+        "session_chair": "Natalie House",
+        "title": "AuScope Virtual Research Environment Build Program. A Retrospective.",
+        "authors": "Dr Jens Klump",
+        "url": "https://conference.eresearch.edu.au/auscope-virtual-research-environment-build-program-a-retrospective/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard B2",
+        "session_chair": "Amr Hassan",
+        "title": "Securing Australia’s AI Future: Sovereign Infrastructure and Open-Source Innovation for Sensitive Data",
+        "authors": "Securing Australia’s AI Future: Sovereign Infrastructure and Open-Source Innovation for Sensitive Data",
+        "url": "https://conference.eresearch.edu.au/securing-australias-ai-future-sovereign-infrastructure-and-open-source-innovation-for-sensitive-data/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard B3",
+        "session_chair": "Werner Scholz",
+        "title": "Storage and Data Protection Solutions for Long Term Archiving",
+        "authors": "Storage and Data Protection Solutions for Long Term Archiving",
+        "url": "https://conference.eresearch.edu.au/storage-and-data-protection-solutions-for-long-term-archiving/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard Room",
+        "session_chair": "Aditi Subramanya",
+        "title": "Beyond the optics: Defining meaningful organisational support for Diversity & Inclusion",
+        "authors": "Beyond the optics: Defining meaningful organisational support for Diversity & Inclusion",
+        "url": "https://conference.eresearch.edu.au/beyond-the-optics-defining-meaningful-organisational-support-for-diversity-inclusion/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "12:00 -12:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Alex Reid",
+        "title": "Preserving Our Born-Digital Cultural Heritage – it’s EAASI! – Phase Two of The Australian Emulation Network (AusEAASI)",
+        "authors": "Alex Ip",
+        "url": "https://conference.eresearch.edu.au/preserving-our-born-digital-cultural-heritage-its-eaasi-phase-two-of-the-australian-emulation-network-auseaasi/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "12:00 -12:20",
+        "location": "Boulevard Room",
+        "session_chair": "Aditi Subramanya",
+        "title": "From Discovery to Action: Tackling AI-Driven Data Challenges Through Global Collaboration",
+        "authors": "Hilary Hanahoe",
+        "url": "https://conference.eresearch.edu.au/from-discovery-to-action-tackling-ai-driven-data-challenges-through-global-collaboration/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "12:20 – 12:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Alex Reid",
+        "title": "Co-Designing a National Advanced Analytics and AI Resource Hub",
+        "authors": "Bernadette Hyland-Wood, Kerrie Mengersen",
+        "url": "https://conference.eresearch.edu.au/co-designing-a-national-advanced-analytics-and-ai-resource-hub/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "12:20 – 12:40",
+        "location": "Boulevard Room",
+        "session_chair": "Aditi Subramanya",
+        "title": "The IBM/UQ Centre of Excellence",
+        "authors": "David Abramson, Jake Carroll",
+        "url": "https://conference.eresearch.edu.au/the-ibm-uq-centre-of-excellence/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "12:40 – 13:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Alex Reid",
+        "title": "Lunch, Exhibition, Poster Viewing | Boulevard Foyer",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Wednesday",
+        "time": "13:40 – 14:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "From Bench to GPU: A Biologist’s Journey into Virtualised Cryo-EM Data Processing on Bunya HPC",
+        "authors": "Farrah Blades",
+        "url": "https://conference.eresearch.edu.au/from-bench-to-gpu-a-biologists-journey-into-virtualised-cryo-em-data-processing-on-bunya-hpc/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "13:40 – 14:00",
+        "location": "Boulevard B1",
+        "session_chair": "Ai-Lin Soo",
+        "title": "Intersect AI Training Bootcamps: Upskilling Researchers with Applied AI Skills",
+        "authors": "Jiaxin Fan",
+        "url": "https://conference.eresearch.edu.au/intersect-ai-training-bootcamps-upskilling-researchers-with-applied-ai-skills/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "13:40 – 14:00",
+        "location": "Boulevard B2",
+        "session_chair": "Harshula Jayasuriya",
+        "title": "A workflow editor and execution framework for transforming existing code into scalable, distributed workflows",
+        "authors": "Ryan Bunney",
+        "url": "https://conference.eresearch.edu.au/a-workflow-editor-and-execution-framework-for-transforming-existing-code-into-scalable-distributed-workflows/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "13:40 – 14:00",
+        "location": "Boulevard B3",
+        "session_chair": "Sarah Thomas",
+        "title": "Blockchain Commons for Autonomous Digital Custodianship: Designing a Dual NFT infrastructure for Indigenous Food Sovereignty and Collective Benefit",
+        "authors": "Shoufeng Cao",
+        "url": "https://conference.eresearch.edu.au/blockchain-commons-for-autonomous-digital-custodianship-designing-a-dual-nft-infrastructure-for-indigenous-food-sovereignty-and-collective-benefit/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "13:40 – 14:00",
+        "location": "Boulevard Room",
+        "session_chair": "Peter Sefton",
+        "title": "The Triple Point: Building a medical research metadata system using RO-Crate and linked data principles",
+        "authors": "Michael Milton",
+        "url": "https://conference.eresearch.edu.au/the-triple-point-building-a-medical-research-metadata-system-using-ro-crate-and-linked-data-principles/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:00 – 14:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "Setting up Cryo-EM tools and workflows in HPC Phoenix : lessons learnt",
+        "authors": "Fabien Voisin",
+        "url": "https://conference.eresearch.edu.au/setting-up-cryo-em-tools-and-workflows-in-hpc-phoenix-lessons-learnt/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:00 – 14:20",
+        "location": "Boulevard B1",
+        "session_chair": "Ai-Lin Soo",
+        "title": "The AI Carrots Project: building supportive resources for researchers",
+        "authors": "Cameron Fong, Darya Vanichkina",
+        "url": "https://conference.eresearch.edu.au/the-ai-carrots-project-building-supportive-resources-for-researchers/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:00 – 14:20",
+        "location": "Boulevard B2",
+        "session_chair": "Harshula Jayasuriya",
+        "title": "Workflow-installer: Simplifying Nextflow  Workflow Deployment on HPC Clusters",
+        "authors": "Kisaru Liyanage",
+        "url": "https://conference.eresearch.edu.au/workflow-installer-simplifying-nextflow-workflow-deployment-on-hpc-clusters/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:00 – 14:20",
+        "location": "Boulevard B3",
+        "session_chair": "Sarah Thomas",
+        "title": "Australian Trust and Identity Roadmap for National Research Infrastructure: Connecting Australia’s national digital research ecosystem simply and securely",
+        "authors": "Heath  Marks, Margie Jantii",
+        "url": "https://conference.eresearch.edu.au/australian-trust-and-identity-roadmap-for-national-research-infrastructure-connecting-australias-national-digital-research-ecosystem-simply-and-securely/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:00 – 14:20",
+        "location": "Boulevard Room",
+        "session_chair": "Peter Sefton",
+        "title": "Low friction FAIR interoperability using RO-Crate metadata in  text analytics pipelines",
+        "authors": "Peter Sefton, Rosanna Smith, Michael Lynch",
+        "url": "https://conference.eresearch.edu.au/low-friction-fair-interoperability-using-ro-crate-metadata-in-text-analytics-pipelines/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:20 – 14:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "Accelerate research and reduce costs with cloud optimised storage formats",
+        "authors": "Steven Gillard",
+        "url": "https://conference.eresearch.edu.au/accelerate-research-and-reduce-costs-with-cloud-optimised-storage-formats/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:20 – 14:40",
+        "location": "Boulevard B1",
+        "session_chair": "Ai-Lin Soo",
+        "title": "Advancing AI Literacy for Responsible Research at Scale",
+        "authors": "Kyle Hemming, Erin Wood",
+        "url": "https://conference.eresearch.edu.au/advancing-ai-literacy-for-responsible-research-at-scale/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:20 – 14:40",
+        "location": "Boulevard B2",
+        "session_chair": "Harshula Jayasuriya",
+        "title": "Modernising building of bespoke software environments for eResearch and sustaining global community engagement",
+        "authors": "Modernising building of bespoke software environments for eResearch and sustaining global community engagement",
+        "url": "https://conference.eresearch.edu.au/modernising-building-of-bespoke-software-environments-for-eresearch-and-sustaining-global-community-engagement/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:20 – 14:40",
+        "location": "Boulevard B3",
+        "session_chair": "Sarah Thomas",
+        "title": "Trust and Identity for National Research Infrastructure: Codesigning a system-wide approach",
+        "authors": "Trust and Identity for National Research Infrastructure: Codesigning a system-wide approach",
+        "url": "https://conference.eresearch.edu.au/trust-and-identity-for-national-research-infrastructure-codesigning-a-system-wide-approach/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:20 – 14:40",
+        "location": "Boulevard Room",
+        "session_chair": "Peter Sefton",
+        "title": "Someone said  to do RO-Crates? RO-Crate Birds of a Feather session meet colleagues and give feedback",
+        "authors": "Someone said  to do RO-Crates? RO-Crate Birds of a Feather session meet colleagues and give feedback",
+        "url": "https://conference.eresearch.edu.au/someone-said-to-do-ro-crates-ro-crate-birds-of-a-feather-session-meet-colleagues-and-give-feedback/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:40 – 15:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "A Cat In The Matrix",
+        "authors": "Gareth Elliott",
+        "url": "https://conference.eresearch.edu.au/a-cat-in-the-matrix/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "14:40 – 15:00",
+        "location": "Boulevard Room",
+        "session_chair": "Peter Sefton",
+        "title": "Fostering an AI-enabled Scientific Future in Australia with the Google Developer Group AI for Science",
+        "authors": "Fostering an AI-enabled Scientific Future in Australia with the Google Developer Group AI for ScienceNathaniel Butterworth",
+        "url": "https://conference.eresearch.edu.au/fostering-an-ai-enabled-scientific-future-in-australia-with-the-google-developer-group-ai-for-science/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "15:00 -15:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet",
+        "title": "Rust for Scientific Computing – It’s Good!",
+        "authors": "Emily Kahl",
+        "url": "https://conference.eresearch.edu.au/rust-for-scientific-computing-its-good/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "15:50 – 14:10",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Deanna Deveson Lucas",
+        "title": "End to end workflows in Ecoacoustics: Verifying AI Output",
+        "authors": "Anthony  Truskinger",
+        "url": "https://conference.eresearch.edu.au/end-to-end-workflows-in-ecoacoustics-verifying-ai-output/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "15:50 – 14:10",
+        "location": "Boulevard B1",
+        "session_chair": "Jana Makar",
+        "title": "That’s FAIR enough! Targeted FAIR Skills Training and Support in the Australian Grains Industry",
+        "authors": "Melanie Dixon",
+        "url": "https://conference.eresearch.edu.au/thats-fair-enough-targeted-fair-skills-training-and-support-in-the-australian-grains-industry/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "15:50 – 14:10",
+        "location": "Boulevard B2",
+        "session_chair": "Greg D’Arcy",
+        "title": "Open Science in Data-intensive Research Requires Multiple Entry Points: A Case Study from AuScope in Solid Earth Science Infrastructures.",
+        "authors": "Lesley Wyborn",
+        "url": "https://conference.eresearch.edu.au/open-science-in-data-intensive-research-requires-multiple-entry-points-a-case-study-from-auscope-in-solid-earth-science-infrastructures/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "15:50 – 14:10",
+        "location": "Boulevard B3",
+        "session_chair": "Siddeswara Guru",
+        "title": "Enabling Climate Model Evaluation in Australia: Infrastructure, Standards, and CMIP7",
+        "authors": "Romain Beucher",
+        "url": "https://conference.eresearch.edu.au/enabling-climate-model-evaluation-in-australia-infrastructure-standards-and-cmip7/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "15:50 – 14:10",
+        "location": "Boulevard Room",
+        "session_chair": "Slava Kitaeff",
+        "title": "NeSI Platform Refresh Reflections",
+        "authors": "Blair Bethwaite",
+        "url": "https://conference.eresearch.edu.au/nesi-platform-refresh-reflections/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:10 – 16:30",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Deanna Deveson Lucas",
+        "title": "AI-assisted Humanities Researcher Workbenches",
+        "authors": "Ian McCrabb",
+        "url": "https://conference.eresearch.edu.au/ai-assisted-humanities-researcher-workbenches/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:10 – 16:30",
+        "location": "Boulevard B1",
+        "session_chair": "Jana Makar",
+        "title": "From PhD to RSE: Training the Next Generation of Research Software Engineers",
+        "authors": "Kelsey Druken",
+        "url": "https://conference.eresearch.edu.au/from-phd-to-rse-training-the-next-generation-of-research-software-engineers/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:10 – 16:30",
+        "location": "Boulevard B2",
+        "session_chair": "Greg D’Arcy",
+        "title": "An interoperable and secure model to support data mobility across the national research ecosystem.",
+        "authors": "Greg D’Arcy",
+        "url": "https://conference.eresearch.edu.au/an-interoperable-and-secure-model-to-support-data-mobility-across-the-national-research-ecosystem/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:10 – 16:30",
+        "location": "Boulevard B3",
+        "session_chair": "Siddeswara Guru",
+        "title": "Biosecurity Commons – The ground-breaking platform for modelling and analysing biosecurity risk and response",
+        "authors": "Rupert Marquand",
+        "url": "https://conference.eresearch.edu.au/biosecurity-commons-the-ground-breaking-platform-for-modelling-and-analysing-biosecurity-risk-and-response/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:10 – 16:30",
+        "location": "Boulevard Room",
+        "session_chair": "Slava Kitaeff",
+        "title": "Institutional Research Computing Capabilities in Australia",
+        "authors": "Slava Kitaeff, Luc Betbeder-Matibet",
+        "url": "https://conference.eresearch.edu.au/institutional-research-computing-capabilities-in-australia/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:30 – 16:50",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Deanna Deveson Lucas",
+        "title": "Layers of Life: AI-Ready Species Images, Sounds, and Spatial Occurrence Data in the Atlas of Living Australia",
+        "authors": "Kylie Morrow",
+        "url": "https://conference.eresearch.edu.au/layers-of-life-ai-ready-species-images-sounds-and-spatial-occurrence-data-in-the-atlas-of-living-australia/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:30 – 16:50",
+        "location": "Boulevard B1",
+        "session_chair": "Jana Makar",
+        "title": "Principles for the Operationalisation of Responsible AI in the Research and Public Sector",
+        "authors": "James Smithies",
+        "url": "https://conference.eresearch.edu.au/principles-for-the-operationalisation-of-responsible-ai-in-the-research-and-public-sector/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:30 – 16:50",
+        "location": "Boulevard B2",
+        "session_chair": "Greg D’Arcy",
+        "title": "Enabling Research Connectivity: The Strategic Role of Data Mobility in an Integrated National Research Infrastructure Ecosystem.",
+        "authors": "Enabling Research Connectivity: The Strategic Role of Data Mobility in an Integrated National Research Infrastructure Ecosystem.",
+        "url": "https://conference.eresearch.edu.au/enabling-research-connectivity-the-strategic-role-of-data-mobility-in-an-integrated-national-research-infrastructure-ecosystem/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:30 – 16:50",
+        "location": "Boulevard B3",
+        "session_chair": "Siddeswara Guru",
+        "title": "Biodiversity and ecosystem data management: Semantic web approach",
+        "authors": "Biodiversity and ecosystem data management: Semantic web approach",
+        "url": "https://conference.eresearch.edu.au/biodiversity-and-ecosystem-data-management-semantic-web-approach/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:30 – 16:50",
+        "location": "Boulevard Room",
+        "session_chair": "Slava Kitaeff",
+        "title": "Sustainable Research Computing in T1&T2",
+        "authors": "Sustainable Research Computing in T1&T2",
+        "url": "https://conference.eresearch.edu.au/sustainable-research-computing-in-t1t2/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:50 – 17:10",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Deanna Deveson Lucas",
+        "title": "Exploration of Large Language Models as the Basis for Natural Language Query Interfaces to Big Data Systems",
+        "authors": "Richard Sinnott, Luca Morandini",
+        "url": "https://conference.eresearch.edu.au/exploration-of-large-language-models-as-the-basis-for-natural-language-query-interfaces-to-big-data-systems/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "16:50 – 17:10",
+        "location": "Boulevard Room",
+        "session_chair": "Slava Kitaeff",
+        "title": "Measuring impact – recording support metrics to uncover trends and drive change",
+        "authors": "Cameron Fong",
+        "url": "https://conference.eresearch.edu.au/measuring-impact-recording-support-metrics-to-uncover-trends-and-drive-change/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "17:10 -17:30",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Deanna Deveson Lucas",
+        "title": "Using AI tools in a virtual desktop for transcription and translation.",
+        "authors": "Yvette Wharton",
+        "url": "https://conference.eresearch.edu.au/using-ai-tools-in-a-virtual-desktop-for-transcription-and-translation/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "17:10 -17:30",
+        "location": "Boulevard Room",
+        "session_chair": "Slava Kitaeff",
+        "title": "Business Continuity through Reproducible Research – a practical workshop on building knowledge trust and retention",
+        "authors": "Amanda Miotto",
+        "url": "https://conference.eresearch.edu.au/business-continuity-through-reproducible-research-a-practical-workshop-on-building-knowledge-trust-and-retention/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Wednesday",
+        "time": "17:30 – 19:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Deanna Deveson Lucas",
+        "title": "Poster Reception | Boulevard FoyerCap off the second day of the conference by attending the Poster Reception, providing an informal space for presenters to engage directly with attendees, encouraging interactive discussions and in-depth exploration of their work, making it a must-attend event for valuable insights and networking.",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Thursday",
+        "time": "07:30 – 08:30",
+        "location": "N/A",
+        "session_chair": "N/A",
+        "title": "Women+ in HPC & HPC Systems Administrators Joint Breakfast, sponsored by SharonAI",
+        "authors": "This breakfast is free to attend, but space is limited. Register your place when registering for the conference.",
+        "url": "https://conference.eresearch.edu.au/women-in-hpc-australasia-breakfast/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "08:00 – 17:30",
+        "location": "N/A",
+        "session_chair": "N/A",
+        "title": "Registration Open | Boulevard Auditorium Registration Desk",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Thursday",
+        "time": "08:40 -08:50",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Welcome to Day 3Conference Chairs",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Thursday",
+        "time": "08:50 – 09:30",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "High-Performance, Quantum and AI-Driven Chemical Discovery",
+        "authors": ", Professor of Quantum Medicinal Chemistry, Monash University",
+        "url": "https://conference.eresearch.edu.au/high-performance-quantum-and-ai-driven-chemical-discovery/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "09:30 – 10:30",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Why Australasian Research Needs SupercomputingPanelists:Hayley Teasdale, Australian Academy of ScienceAndy Hogg, ACCESS-NRITim Rawling, AuScopeGeorgina Rae, REANNZ",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Thursday",
+        "time": "10:30 – 11:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Morning Tea, Exhibition, Poster Viewing | Boulevard Foyer",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Noel Faux",
+        "title": "Enabling health researchers through national data sharing infrastructure: Health Studies Australian National Data Asset",
+        "authors": "Kathy Dallest, Katie Ozdowska",
+        "url": "https://conference.eresearch.edu.au/enabling-health-researchers-through-national-data-sharing-infrastructure-health-studies-australian-national-data-asset/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard B1",
+        "session_chair": "Ghulam Murtaza",
+        "title": "From Policy to Practice: Building a Research Data Management Ecosystem",
+        "authors": "Sow Boubacar",
+        "url": "https://conference.eresearch.edu.au/from-policy-to-practice-building-a-research-data-management-ecosystem/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard B2",
+        "session_chair": "Edoardo Tescari",
+        "title": "Failing Forward: Experiments with AI Tools to Build a Policy Finder",
+        "authors": "Wei Shen",
+        "url": "https://conference.eresearch.edu.au/failing-forward-experiments-with-ai-tools-to-build-a-policy-finder/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard B3",
+        "session_chair": "Andrew Underwood",
+        "title": "Research isn’t limited by ideas; it’s limited by infrastructure",
+        "authors": "Ben Svalbe",
+        "url": "https://conference.eresearch.edu.au/research-isnt-limited-by-ideas-its-limited-by-infrastructure/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:00 – 11:20",
+        "location": "Boulevard Room",
+        "session_chair": "Maciej Cytowski",
+        "title": "SCIGET: Making Scientific Software Accessible – Everywhere for Everyone!",
+        "authors": "Aswin Narayanan, Steffen Bollmann, Mark Endrei, Joshua Scarsbrook",
+        "url": "https://conference.eresearch.edu.au/sciget-making-scientific-software-accessible-everywhere-for-everyone/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Noel Faux",
+        "title": "MAVERIC: Enabling the Future of AI-Driven Research in Australia",
+        "authors": "Amr Hassan",
+        "url": "https://conference.eresearch.edu.au/maveric-enabling-the-future-of-ai-driven-research-in-australia/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard B1",
+        "session_chair": "Ghulam Murtaza",
+        "title": "Your Future Self Will Thank You: Encouraging Good Data Management Practice at Project Closure",
+        "authors": "Vanessa Crosby",
+        "url": "https://conference.eresearch.edu.au/your-future-self-will-thank-you-encouraging-good-data-management-practice-at-project-closure/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard B2",
+        "session_chair": "Edoardo Tescari",
+        "title": "FromMetricsto Meaning: A Contextual AI Platform for Research Impact Assessment",
+        "authors": "Sebastian Haan",
+        "url": "https://conference.eresearch.edu.au/from-metrics-to-meaning-a-contextual-ai-platform-for-research-impact-assessment/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard B3",
+        "session_chair": "Andrew Underwood",
+        "title": "Next Generation System Integration for Sustaining AI/HPC Growth",
+        "authors": "Joshua Fryman",
+        "url": "https://conference.eresearch.edu.au/next-generation-system-integration-for-sustaining-ai-hpc-growth/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:20 – 11:40",
+        "location": "Boulevard Room",
+        "session_chair": "Maciej Cytowski",
+        "title": "Evolving Systems for Biodiversity Science: The Atlas of Living Australia’s Next-Gen Cloud Platform Journey",
+        "authors": "Kylie Morrow",
+        "url": "https://conference.eresearch.edu.au/evolving-systems-for-biodiversity-science-the-atlas-of-living-australias-next-gen-cloud-platform-journey/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Noel Faux",
+        "title": "Towards a Unified Access Infrastructure for Australia’s Life Sciences Platforms",
+        "authors": "Amanda Zhu,Dr Steven Manos",
+        "url": "https://conference.eresearch.edu.au/towards-a-unified-access-infrastructure-for-australias-life-sciences-platforms/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard B1",
+        "session_chair": "Ghulam Murtaza",
+        "title": "Operationalising Trust in Data Spaces",
+        "authors": "Fahamame Emamjome",
+        "url": "https://conference.eresearch.edu.au/operationalising-trust-in-data-spaces/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard B2",
+        "session_chair": "Edoardo Tescari",
+        "title": "Different Models, Same Challenges: A Conversation oneResearchOperations",
+        "authors": "Different Models, Same Challenges: A Conversation oneResearchOperations",
+        "url": "https://conference.eresearch.edu.au/different-models-same-challenges-a-conversation-on-eresearch-operations/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard B3",
+        "session_chair": "Andrew Underwood",
+        "title": "Unlocking New Research Frontiers with AI-Powered Infrastructure",
+        "authors": "Unlocking New Research Frontiers with AI-Powered Infrastructure",
+        "url": "https://conference.eresearch.edu.au/empowering-a-new-wave-of-science-with-dell-poweredge-xe9712-nlv72/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "11:40 – 12:00",
+        "location": "Boulevard Room",
+        "session_chair": "Maciej Cytowski",
+        "title": "Scientific Applications and Workflows Support – Best Practices, Challenges and Approaches",
+        "authors": "Scientific Applications and Workflows Support – Best Practices, Challenges and Approaches",
+        "url": "https://conference.eresearch.edu.au/scientific-applications-and-workflows-support-best-practices-challenges-and-approaches/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "12:00 – 12:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Noel Faux",
+        "title": "The future of eResearch in Aotearoa",
+        "authors": "Georgina Rae",
+        "url": "https://conference.eresearch.edu.au/the-future-of-eresearch-in-aotearoa/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "12:00 – 12:20",
+        "location": "Boulevard Room",
+        "session_chair": "Maciej Cytowski",
+        "title": "Leading the REDCap service across UWA",
+        "authors": "Leading the REDCap service across UWARose-Anna Inglis",
+        "url": "https://conference.eresearch.edu.au/leading-the-redcap-service-across-uwa/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "12:20 – 12:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Noel Faux",
+        "title": "The Australian Imaging Service as the National Imaging Facility’s Foundational Digital Research Infrastructure",
+        "authors": "Ryan Sullivan",
+        "url": "https://conference.eresearch.edu.au/the-australian-imaging-service-as-the-national-imaging-facilitys-foundational-digital-research-infrastructure/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "12:40 – 13:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Noel Faux",
+        "title": "Lunch, Exhibition, Poster Viewing | Boulevard Foyer",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Thursday",
+        "time": "13:40 – 14:00",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Liz Stokes",
+        "title": "WHACS: A new global Wave Hindcast for the Australian Climate Service, calibrated for extremes",
+        "authors": "Claire Trenham",
+        "url": "https://conference.eresearch.edu.au/whacs-a-new-global-wave-hindcast-for-the-australian-climate-service-calibrated-for-extremes/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "13:40 – 14:00",
+        "location": "Boulevard B1",
+        "session_chair": "Masoud Rahimi",
+        "title": "Helping deliver Nature-Positive outcomes through a Shared Environmental Analytics Facility (SEAF)",
+        "authors": "Luke Edwards",
+        "url": "https://conference.eresearch.edu.au/helping-deliver-nature-positive-outcomes-through-a-shared-environmental-analytics-facility-seaf/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "13:40 – 14:00",
+        "location": "Boulevard B2",
+        "session_chair": "Lesley Wyborn",
+        "title": "A Scorecard to Measure Earth and Environmental Science Repository Resilience Both During Normal Times and in Times of Crisis.",
+        "authors": "Lesley Wyborn",
+        "url": "https://conference.eresearch.edu.au/a-scorecard-to-measure-earth-and-environmental-science-repository-resilience-both-during-normal-times-and-in-times-of-crisis/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "13:40 – 14:00",
+        "location": "Boulevard B3",
+        "session_chair": "Jonathan Smillie",
+        "title": "Evolving Data Landscape: Governance dimensions of Australian Dataspaces",
+        "authors": "Shannon Callaghan, Kheeran Dharmawardena",
+        "url": "https://conference.eresearch.edu.au/evolving-data-landscape-governance-dimensions-of-australian-dataspaces/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "13:40 – 14:00",
+        "location": "Boulevard Room",
+        "session_chair": "Kyle Hemming",
+        "title": "Federated Learning for eResearch",
+        "authors": "Peter Marendy",
+        "url": "https://conference.eresearch.edu.au/federated-learning-for-eresearch/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "14:00 – 14:20",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Liz Stokes",
+        "title": "Delivering Spatial Ecosystem Data at Scale: TERN’s Cloud Native Approach",
+        "authors": "Gerhard Weis",
+        "url": "https://conference.eresearch.edu.au/delivering-spatial-ecosystem-data-at-scale-terns-cloud-native-approach/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "14:00 – 14:20",
+        "location": "Boulevard B1",
+        "session_chair": "Masoud Rahimi",
+        "title": "Measurement-level Data Sharing Workflow – CHeBA Research Bank as a Use Case of Dementias Platform Australia (DPAU)",
+        "authors": "Rory Chen",
+        "url": "https://conference.eresearch.edu.au/measurement-level-data-sharing-workflow-cheba-research-bank-as-a-use-case-of-dementias-platform-australia-dpau/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "14:00 – 14:20",
+        "location": "Boulevard B2",
+        "session_chair": "Lesley Wyborn",
+        "title": "Cybersecurity for RSEs: design patterns for eResearch web applications",
+        "authors": "Sharon Tickell",
+        "url": "https://conference.eresearch.edu.au/cybersecurity-for-rses-design-patterns-for-eresearch-web-applications/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "14:00 – 14:20",
+        "location": "Boulevard B3",
+        "session_chair": "Jonathan Smillie",
+        "title": "Building Australia’s Dataspace Ecosystem: Cloud-Driven Innovation for Trusted Data Sharing",
+        "authors": "Robert Shen",
+        "url": "https://conference.eresearch.edu.au/building-australias-dataspace-ecosystem-cloud-driven-innovation-for-trusted-data-sharing/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "14:20 – 14:40",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Liz Stokes",
+        "title": "Harmonizing Stable Isotope Data in Australia: The isotopes.au Platform for Enhanced Data Sharing and Collaboration",
+        "authors": "Nina Welti, Lian Flick",
+        "url": "https://conference.eresearch.edu.au/harmonizing-stable-isotope-data-in-australia-the-isotopes-au-platform-for-enhanced-data-sharing-and-collaboration/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "14:20 – 14:40",
+        "location": "Boulevard B1",
+        "session_chair": "Masoud Rahimi",
+        "title": "Lost in Translation: Closing the Gap Between Knowledge and Impact",
+        "authors": "Lost in Translation: Closing the Gap Between Knowledge and Impact",
+        "url": "https://conference.eresearch.edu.au/lost-in-translation-closing-the-gap-between-knowledge-and-impact/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "14:20 – 14:40",
+        "location": "Boulevard B3",
+        "session_chair": "Jonathan Smillie",
+        "title": "They Are Amongst Us: Are Dataspaces Are Already Here?",
+        "authors": "They Are Amongst Us: Are Dataspaces Are Already Here?",
+        "url": "https://conference.eresearch.edu.au/they-are-amongst-us-are-dataspaces-are-already-here/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "14:20 – 14:40",
+        "location": "Boulevard Room",
+        "session_chair": "Kyle Hemming",
+        "title": "Rewriting the Rules: AI’s Impact on Digital Research Skills Training",
+        "authors": "Rewriting the Rules: AI’s Impact on Digital Research Skills Training",
+        "url": "https://conference.eresearch.edu.au/rewriting-the-rules-ais-impact-on-digital-research-skills-training/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "14:40 – 15:00",
+        "location": "Boulevard Room",
+        "session_chair": "Kyle Hemming",
+        "title": "Raising the profile of in situ data within the Group on Earth Observations (GEO): it’s not all about satellite-based observations!",
+        "authors": "Helen Glaves",
+        "url": "https://conference.eresearch.edu.au/raising-the-profile-of-in-situ-data-within-the-group-on-earth-observations-geo-its-not-all-about-satellite-based-observations/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "15:00 – 15:20",
+        "location": "Boulevard Room",
+        "session_chair": "Kyle Hemming",
+        "title": "ClimViewer: A Scalable, Interactive Platform forClimateand Weather Data Exploration",
+        "authors": "Rui Yang",
+        "url": "https://conference.eresearch.edu.au/climviewer-a-scalable-interactive-platform-for-climate-and-weather-data-exploration/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "15:20 – 15:50",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Liz Stokes",
+        "title": "Afternoon Tea, Exhibition, Poster Viewing | Boulevard Foyer",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Thursday",
+        "time": "15:50 – 16:30",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Physical AI as the Next Frontier of Research and Industrial Digitization",
+        "authors": "Tomasz Bednarz, Director of Strategic Researcher Engagement at NVIDIA Corporation",
+        "url": "https://conference.eresearch.edu.au/physical-ai-as-the-next-frontier-of-research-and-industrial-digitization/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "16:30 – 17:10",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Critical Horizons for Australian eResearch",
+        "authors": "Frankie Stevens",
+        "url": "https://conference.eresearch.edu.au/critical-horizons-for-australian-eresearch/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Thursday",
+        "time": "17:10 – 17:15",
+        "location": "Boulevard Auditorium",
+        "session_chair": "Luc Betbeder-Matibet & Natasha Simons",
+        "title": "Conference CloseNatasha Simons, Luc Betbeder-Matibet, Co-Chairs, 2025 eResearch Australasia Conference",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Friday",
+        "time": "08:30 – 13:00",
+        "location": "N/A",
+        "session_chair": "N/A",
+        "title": "Registration | Boulevard 1-3 Concourse",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Friday",
+        "time": "09:00 – 10:30",
+        "location": "Boulevard B1",
+        "session_chair": "N/A",
+        "title": "Deep Dive: Hands-On Engineering with Google’s Gemini API and Gemini 2.5",
+        "authors": "Mark McDonald, Google DeepMind",
+        "url": "https://conference.eresearch.edu.au/deep-dive-hands-on-engineering-with-googles-gemini-api-and-gemini-2-5/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Friday",
+        "time": "09:00 – 10:30",
+        "location": "Boulevard B2",
+        "session_chair": "N/A",
+        "title": "Optimizing Scratch Filesystems for HPC and AI Workloads",
+        "authors": "Christopher Schlipalius, Pawsey,Gin Tan, Monash UniversitySarah Walters,University of QueenslandGary Mancuso,Hitachi VantaraChris Hines,Monash University",
+        "url": "https://conference.eresearch.edu.au/optimizing-scratch-filesystems-for-hpc-and-ai-workloads/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Friday",
+        "time": "10:30 – 11:00",
+        "location": "Boulevard B1",
+        "session_chair": "N/A",
+        "title": "Morning Tea | Boulevard 1-3 Concourse",
+        "authors": "N/A",
+        "url": "N/A",
+        "details": "N/A"
+    },
+    {
+        "day": "Friday",
+        "time": "11:00 – 12:30",
+        "location": "Boulevard B1",
+        "session_chair": "N/A",
+        "title": "Deep Dive: Hands-On Engineering with Google’s Gemini API and Gemini 2.5 continued",
+        "authors": "Mark McDonald, Google DeepMind",
+        "url": "https://conference.eresearch.edu.au/deep-dive-hands-on-engineering-with-googles-gemini-api-and-gemini-2-5/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    },
+    {
+        "day": "Friday",
+        "time": "11:00 – 12:30",
+        "location": "Boulevard B2",
+        "session_chair": "N/A",
+        "title": "Optimizing Scratch Filesystems for HPC and AI Workloads continued",
+        "authors": "Christopher Schlipalius, Pawsey,Gin Tan, Monash UniversitySarah Walters,University of QueenslandGary Mancuso,Hitachi VantaraChris Hines,Monash University",
+        "url": "https://conference.eresearch.edu.au/optimizing-scratch-filesystems-for-hpc-and-ai-workloads/",
+        "details": "Australasian eResearch Organisations (AeRO) Inc is the industry association focused on eResearch in Australasia. We play a critical coordination role for our members, who are actively transforming research via Information Technology. Organisations join AeRO to advance their own capabilities and services, to collaborate, and to network with peers. AeRO believes researchers and the sector significantly benefit from greater communication, coordination and sharing among the increasingly different and evolving service providers www.aero.edu.au"
+    }
+]
