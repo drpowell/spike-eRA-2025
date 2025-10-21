@@ -22,7 +22,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                margin-bottom: 20px;
+                margin-bottom: 12px;
             }
             h1 {
                 margin: 0;
@@ -201,6 +201,43 @@
             tr.hidden-row {
                 display: none;
             }
+
+            /* Add these new styles for the days navigation bar */
+            .days-nav {
+                position: sticky;
+                top: 0;
+                z-index: 10;
+                background: #fff;
+                padding: 12px 0;
+                margin: 0 -20px 20px;
+                padding: 12px 20px;
+                border-bottom: 1px solid #eee;
+                display: flex;
+                gap: 12px;
+                overflow-x: auto;
+            }
+            
+            .days-nav button {
+                padding: 6px 12px;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                background: #fff;
+                cursor: pointer;
+                font-size: 14px;
+                white-space: nowrap;
+                transition: all 0.2s;
+            }
+            
+            .days-nav button.active {
+                background: var(--accent);
+                color: white;
+                border-color: var(--accent);
+            }
+            
+            .days-nav button:hover:not(.active) {
+                background: #f5f5f5;
+            }
+
             @media (max-width: 900px) {
                 .streams-table thead th:not(:first-child) {
                     display: none;
@@ -416,6 +453,11 @@
 
                     root.innerHTML = ""; // Clear "Loading..." message
 
+                    // Create days navigation
+                    const daysNav = document.createElement('div');
+                    daysNav.className = 'days-nav';
+                    root.appendChild(daysNav);
+
                     const byDay = {};
                     for (const item of data) {
                         const day = item.day || "Unknown";
@@ -444,6 +486,19 @@
                     };
 
                     const days = sortWeekdays(Object.keys(byDay));
+
+                    // Add day buttons to navigation
+                    days.forEach(day => {
+                        const btn = document.createElement('button');
+                        btn.textContent = day;
+                        btn.addEventListener('click', () => {
+                            const daySection = document.querySelector(`section[data-day="${day}"]`);
+                            if (daySection) {
+                                daySection.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        });
+                        daysNav.appendChild(btn);
+                    });
 
                     for (const day of days) {
                         // ... [rest of the table rendering logic remains the same]
@@ -483,6 +538,7 @@
 
                         const dayEl = document.createElement("section");
                         dayEl.className = "day";
+                        dayEl.dataset.day = day; // Add this line to help with scroll tracking
                         dayEl.innerHTML = `<div class="day-header"><div class="date">${day}</div><div class="legend">Streams: ${locations.join(
                             " · "
                         )}</div></div>`;
@@ -559,6 +615,35 @@
                         dayEl.appendChild(table);
                         root.appendChild(dayEl);
                     }
+
+                    // Add scroll tracking
+                    const observerOptions = {
+                        root: null,
+                        rootMargin: '-50% 0px',
+                        threshold: 0
+                    };
+
+                    const observer = new IntersectionObserver(entries => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                const day = entry.target.dataset.day;
+                                const buttons = daysNav.querySelectorAll('button');
+                                buttons.forEach(btn => {
+                                    if (btn.textContent === day) {
+                                        btn.classList.add('active');
+                                    } else {
+                                        btn.classList.remove('active');
+                                    }
+                                });
+                            }
+                        });
+                    }, observerOptions);
+
+                    // Observe all day sections
+                    document.querySelectorAll('section.day').forEach(section => {
+                        observer.observe(section);
+                    });
+
                     updateVisibleHighlights(); // Apply highlights after table is built
                 } catch (e) {
                     root.innerHTML = `<p style="color:#900">Failed to load conference program. (${e.message})</p>`;
