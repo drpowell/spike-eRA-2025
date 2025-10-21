@@ -85,11 +85,16 @@
                 border-collapse: collapse;
                 table-layout: fixed;
             }
+            .streams-table thead {
+                position: sticky;
+                top: 47px; /* Height of days-nav + padding */
+                z-index: 5;
+                background: white;
+            }
             .streams-table thead th {
                 position: sticky;
-                top: 0;
-                background: linear-gradient(180deg, #fff, #fbfdff);
-                z-index: 2;
+                top: 47px; /* Same as thead */
+                background: white;
                 border-bottom: 1px solid #eee;
                 padding: 8px;
                 font-weight: 700;
@@ -127,6 +132,10 @@
                 padding-right: 12px;
                 font-weight: 600;
                 color: var(--muted);
+                position: sticky;
+                left: 0;
+                background: white;
+                z-index: 6; /* Higher than other headers */
             }
             .session {
                 margin-bottom: 8px;
@@ -238,13 +247,9 @@
                 background: #f5f5f5;
             }
 
-            @media (max-width: 900px) {
-                .streams-table thead th:not(:first-child) {
-                    display: none;
-                }
-                .streams-table td:not(:first-child) {
-                    display: none;
-                }
+            /* Add styles for spanning cells */
+            .streams-table td[colspan] {
+                background: #fafbfc;
             }
         </style>
     </head>
@@ -504,19 +509,20 @@
                         // ... [rest of the table rendering logic remains the same]
                         const sessions = byDay[day];
                         const locSet = new Set(sessions.map((s) => s.location));
-                        const locations = Array.from(locSet).sort((a, b) => {
-                            const order = (loc) => {
-                                if (/auditorium/i.test(loc)) return 0;
-                                if (/\bB1\b/i.test(loc)) return 1;
-                                if (/\bB2\b/i.test(loc)) return 2;
-                                if (/\bB3\b/i.test(loc)) return 3;
-                                if (/\bRoom\b/i.test(loc)) return 4;
-                                if (/Plaza/i.test(loc)) return 5;
-                                if (loc === "General") return 10;
-                                return 6;
-                            };
-                            return order(a) - order(b) || a.localeCompare(b);
-                        });
+                        const locations = Array.from(locSet)
+                            .filter(loc => loc !== "General")  // Remove General from columns
+                            .sort((a, b) => {
+                                const order = (loc) => {
+                                    if (/auditorium/i.test(loc)) return 0;
+                                    if (/\bB1\b/i.test(loc)) return 1;
+                                    if (/\bB2\b/i.test(loc)) return 2;
+                                    if (/\bB3\b/i.test(loc)) return 3;
+                                    if (/\bRoom\b/i.test(loc)) return 4;
+                                    if (/Plaza/i.test(loc)) return 5;
+                                    return 6;
+                                };
+                                return order(a) - order(b) || a.localeCompare(b);
+                            });
 
                         const byTime = {};
                         for (const s of sessions) {
@@ -552,62 +558,97 @@
                         const tbody = document.createElement("tbody");
                         for (const time of times) {
                             const row = document.createElement("tr");
-                            row.innerHTML = `<td class="time-col">${time}</td>`;
-
-                            for (const loc of locations) {
+                            const generalItems = byTime[time].filter(s => s.location === "General");
+                            
+                            if (generalItems.length > 0) {
+                                // Create a spanning cell for General sessions
                                 const cell = document.createElement("td");
-                                const items = byTime[time].filter(
-                                    (s) => s.location === loc
-                                );
-
-                                if (items.length === 0) {
-                                    // Do NOT make empty cells selectable/clickable
-                                    cell.innerHTML = `<div class="empty">&nbsp;</div>`;
-                                } else {
-                                    // Only non-empty cells get an id, clickable class and listener
-                                    const cellId = `${day}-${time}-${loc}`
-                                        .replace(/[\s:/]/g, "-")
-                                        .toLowerCase();
-                                    cell.dataset.cellId = cellId;
-                                    cell.classList.add("clickable");
-                                    cell.addEventListener(
-                                        "click",
-                                        handleCellClick
+                                cell.colSpan = locations.length + 1; // +1 for time column
+                                cell.classList.add("clickable");
+                                const cellId = `${day}-${time}-general`.replace(/[\s:/]/g, "-").toLowerCase();
+                                cell.dataset.cellId = cellId;
+                                cell.addEventListener("click", handleCellClick);
+                                
+                                cell.innerHTML = generalItems
+                                    .map((it) => {
+                                        const aStart = it.url && it.url !== "N/A"
+                                            ? `<a href="${it.url}" target="_blank" rel="noopener">`
+                                            : "";
+                                        const aEnd = aStart ? "</a>" : "";
+                                        const authors = it.authors && it.authors !== "N/A"
+                                            ? `<div class="meta">${escapeHtml(it.authors)}</div>`
+                                            : "";
+                                        const details = it.details && it.details !== "N/A"
+                                            ? `<div class="meta">${escapeHtml(it.details).slice(0, 300)}${
+                                                it.details.length > 300 ? "…" : ""
+                                            }</div>`
+                                            : "";
+                                        return `<div class="session">${aStart}<div class="title">${escapeHtml(
+                                            it.title
+                                        )}</div>${aEnd}${authors}${details}</div>`;
+                                    })
+                                    .join("");
+                                
+                                row.appendChild(cell);
+                            } else {
+                                // Regular row with time and location cells
+                                row.innerHTML = `<td class="time-col">${time}</td>`;
+                                
+                                for (const loc of locations) {
+                                    const cell = document.createElement("td");
+                                    const items = byTime[time].filter(
+                                        (s) => s.location === loc
                                     );
 
-                                    cell.innerHTML = items
-                                        .map((it) => {
-                                            const aStart =
-                                                it.url && it.url !== "N/A"
-                                                    ? `<a href="${it.url}" target="_blank" rel="noopener">`
-                                                    : "";
-                                            const aEnd = aStart ? "</a>" : "";
-                                            const authors =
-                                                it.authors &&
-                                                it.authors !== "N/A"
-                                                    ? `<div class="meta">${escapeHtml(
-                                                          it.authors
-                                                      )}</div>`
-                                                    : "";
-                                            const details =
-                                                it.details &&
-                                                it.details !== "N/A"
-                                                    ? `<div class="meta">${escapeHtml(
-                                                          it.details
-                                                      ).slice(0, 300)}${
-                                                          it.details.length >
-                                                          300
-                                                              ? "…"
-                                                              : ""
-                                                      }</div>`
-                                                    : "";
-                                            return `<div class="session">${aStart}<div class="title">${escapeHtml(
-                                                it.title
-                                            )}</div>${aEnd}${authors}${details}</div>`;
-                                        })
-                                        .join("");
+                                    if (items.length === 0) {
+                                        // Do NOT make empty cells selectable/clickable
+                                        cell.innerHTML = `<div class="empty">&nbsp;</div>`;
+                                    } else {
+                                        // Only non-empty cells get an id, clickable class and listener
+                                        const cellId = `${day}-${time}-${loc}`
+                                            .replace(/[\s:/]/g, "-")
+                                            .toLowerCase();
+                                        cell.dataset.cellId = cellId;
+                                        cell.classList.add("clickable");
+                                        cell.addEventListener(
+                                            "click",
+                                            handleCellClick
+                                        );
+
+                                        cell.innerHTML = items
+                                            .map((it) => {
+                                                const aStart =
+                                                    it.url && it.url !== "N/A"
+                                                        ? `<a href="${it.url}" target="_blank" rel="noopener">`
+                                                        : "";
+                                                const aEnd = aStart ? "</a>" : "";
+                                                const authors =
+                                                    it.authors &&
+                                                    it.authors !== "N/A"
+                                                        ? `<div class="meta">${escapeHtml(
+                                                              it.authors
+                                                          )}</div>`
+                                                        : "";
+                                                const details =
+                                                    it.details &&
+                                                    it.details !== "N/A"
+                                                        ? `<div class="meta">${escapeHtml(
+                                                              it.details
+                                                          ).slice(0, 300)}${
+                                                              it.details.length >
+                                                              300
+                                                                  ? "…"
+                                                                  : ""
+                                                          }</div>`
+                                                        : "";
+                                                return `<div class="session">${aStart}<div class="title">${escapeHtml(
+                                                    it.title
+                                                )}</div>${aEnd}${authors}${details}</div>`;
+                                            })
+                                            .join("");
+                                    }
+                                    row.appendChild(cell);
                                 }
-                                row.appendChild(cell);
                             }
                             tbody.appendChild(row);
                         }
