@@ -1,0 +1,321 @@
+:root {
+    --gap: 10px;
+    --accent: #0b66c3;
+    --muted: #666;
+    --highlight-bg: #e6ffed; /* Light green for highlights */
+}
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto,
+        Helvetica, Arial;
+    color: #111;
+    margin: 20px;
+    background: #f7f9fc;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+h1 {
+    margin: 0;
+    font-size: 20px;
+}
+.auth-container {
+    position: relative;
+}
+.auth-container button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.auth-container button:hover {
+    background-color: #f5f5f5;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.user-info .email {
+    font-size: 14px;
+    color: var(--muted);
+}
+.user-info button {
+    font-size: 14px;
+    color: var(--accent);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.hidden {
+    display: none;
+}
+.day {
+    margin: 18px 0;
+    padding: 12px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+.day-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.day-header .date {
+    font-weight: 600;
+}
+.streams-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.streams-table thead {
+    position: sticky;
+    top: 47px; /* Height of days-nav + padding */
+    z-index: 5;
+    background: white;
+}
+.streams-table thead th {
+    position: sticky;
+    top: 47px; /* Same as thead */
+    background: white;
+    border-bottom: 1px solid #eee;
+    padding: 8px;
+    font-weight: 700;
+    text-align: left;
+}
+.streams-table td {
+    vertical-align: top;
+    padding: 8px;
+    border-bottom: 1px dashed #eee;
+    background: white;
+    transition: background-color 0.3s ease; /* Smooth transition for highlighting */
+}
+.streams-table td.clickable {
+    cursor: pointer;
+}
+.streams-table td.highlighted {
+    background-color: var(--highlight-bg) !important;
+}
+
+/* When a cell is highlighted, make inner session cards transparent
+   so the highlight color fills the whole cell */
+.streams-table td.highlighted .session {
+    background: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+/* Make small meta text transparent background too (if present) */
+.streams-table td.highlighted .session .meta {
+    background: transparent;
+}
+
+.time-col {
+    width: 12%;
+    white-space: nowrap;
+    padding-right: 12px;
+    font-weight: 600;
+    color: var(--muted);
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 6; /* Higher than other headers */
+}
+.session {
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #fff, #fcffff);
+    border: 1px solid #e6f0fb;
+}
+.session .title {
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 4px;
+}
+.session .meta {
+    font-size: 12px;
+    color: var(--muted);
+}
+.session a {
+    color: inherit;
+    text-decoration: none;
+}
+.empty {
+    color: #bbb;
+    font-size: 13px;
+    padding: 6px;
+}
+.legend {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 8px;
+}
+.filter-container {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.toggle-switch {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.toggle-switch input {
+    display: none;
+}
+.toggle-switch span {
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    background: #ddd;
+    position: relative;
+    transition: background 0.3s;
+    margin-right: 8px;
+}
+.toggle-switch span:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: white;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s;
+}
+.toggle-switch input:checked + span {
+    background: var(--accent);
+}
+.toggle-switch input:checked + span:before {
+    transform: translateX(20px);
+}
+tr.hidden-row {
+    display: none;
+}
+
+/* Add these new styles for the days navigation bar */
+.days-nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #fff;
+    padding: 12px 0;
+    margin: 0 -20px 20px;
+    padding: 12px 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+}
+
+.days-nav button {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.days-nav button.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
+
+.days-nav button:hover:not(.active) {
+    background: #f5f5f5;
+}
+
+/* Add styles for spanning cells */
+.streams-table td[colspan] {
+    background: #fafbfc;
+}
+
+/* --- Responsive Styles for Mobile --- */
+@media (max-width: 768px) {
+    body {
+        margin: 0 5px; /* Reduce side margins, remove top/bottom */
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 10px; /* Add some padding to the header area */
+    }
+    .day { padding: 12px 0; } /* Remove horizontal padding on day sections */
+
+    .auth-container {
+        align-self: flex-end;
+    }
+
+    .days-nav {
+        margin: 0 -5px 20px; /* Adjust to new body margin */
+        padding: 12px 15px;
+    }
+
+    /* Hide the table header on mobile */
+    .streams-table thead {
+        display: none;
+    }
+
+    /* Transform table into a list of time slots */
+    .streams-table,
+    .streams-table tbody,
+    .streams-table tr {
+        display: block;
+        width: 100%;
+    }
+
+    .streams-table tr {
+        margin-bottom: 25px;
+    }
+
+    /* Style the time as a header for each time slot */
+    .streams-table .time-col {
+        display: block;
+        width: 100%;
+        position: static; /* Override sticky positioning */
+        background: #f1f5f9;
+        padding: 8px 10px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .streams-table td {
+        display: block;
+        width: 100% !important;
+        border: none;
+        padding: 0; /* Reset padding */
+    }
+
+    /* Add location as a label above the session title */
+    .session::before {
+        content: attr(data-location);
+        display: block;
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--muted);
+        margin-bottom: 6px;
+    }
+
+    /* Hide session authors and details on mobile to simplify the view */
+    .session .meta {
+        display: none;
+    }
+}
